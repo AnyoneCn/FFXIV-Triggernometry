@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <TriggernometryExport Version="1">
-	<ExportedFolder Id="d3c6b4f3-6878-4825-8d67-66b8581eaad1" Name="场地标点-AUTO" Enabled="true">
+	<ExportedFolder Id="d3c6b4f3-6878-4825-8d67-66b8581eaad1" Name="场地标点-AUTO" Enabled="false">
 		<Folders>
 			<Folder Id="64344f6d-4007-4c22-a0bd-9f81200cd206" Name="讨伐歼殛战" Enabled="true">
 				<Folders>
@@ -20,7 +20,6 @@
 									</Action>
 								</Actions>
 								<Condition Enabled="false" Grouping="Or"/>
-								<Conditions/>
 							</Trigger>
 						</Triggers>
 					</Folder>
@@ -40,7 +39,6 @@
 									</Action>
 								</Actions>
 								<Condition Enabled="false" Grouping="Or"/>
-								<Conditions/>
 							</Trigger>
 						</Triggers>
 					</Folder>
@@ -60,7 +58,6 @@
 									</Action>
 								</Actions>
 								<Condition Enabled="false" Grouping="Or"/>
-								<Conditions/>
 							</Trigger>
 						</Triggers>
 					</Folder>
@@ -80,7 +77,6 @@
 									</Action>
 								</Actions>
 								<Condition Enabled="false" Grouping="Or"/>
-								<Conditions/>
 							</Trigger>
 						</Triggers>
 					</Folder>
@@ -100,7 +96,6 @@
 									</Action>
 								</Actions>
 								<Condition Enabled="false" Grouping="Or"/>
-								<Conditions/>
 							</Trigger>
 						</Triggers>
 					</Folder>
@@ -120,7 +115,6 @@
 									</Action>
 								</Actions>
 								<Condition Enabled="false" Grouping="Or"/>
-								<Conditions/>
 							</Trigger>
 						</Triggers>
 					</Folder>
@@ -140,7 +134,6 @@
 									</Action>
 								</Actions>
 								<Condition Enabled="false" Grouping="Or"/>
-								<Conditions/>
 							</Trigger>
 						</Triggers>
 					</Folder>
@@ -160,7 +153,6 @@
 									</Action>
 								</Actions>
 								<Condition Enabled="false" Grouping="Or"/>
-								<Conditions/>
 							</Trigger>
 						</Triggers>
 					</Folder>
@@ -180,7 +172,6 @@
 									</Action>
 								</Actions>
 								<Condition Enabled="false" Grouping="Or"/>
-								<Conditions/>
 							</Trigger>
 						</Triggers>
 					</Folder>
@@ -200,7 +191,6 @@
 									</Action>
 								</Actions>
 								<Condition Enabled="false" Grouping="Or"/>
-								<Conditions/>
 							</Trigger>
 						</Triggers>
 					</Folder>
@@ -220,7 +210,6 @@
 									</Action>
 								</Actions>
 								<Condition Enabled="false" Grouping="Or"/>
-								<Conditions/>
 							</Trigger>
 						</Triggers>
 					</Folder>
@@ -240,7 +229,6 @@
 									</Action>
 								</Actions>
 								<Condition Enabled="false" Grouping="Or"/>
-								<Conditions/>
 							</Trigger>
 						</Triggers>
 					</Folder>
@@ -260,7 +248,6 @@
 									</Action>
 								</Actions>
 								<Condition Enabled="false" Grouping="Or"/>
-								<Conditions/>
 							</Trigger>
 						</Triggers>
 					</Folder>
@@ -280,7 +267,6 @@
 									</Action>
 								</Actions>
 								<Condition Enabled="false" Grouping="Or"/>
-								<Conditions/>
 							</Trigger>
 						</Triggers>
 					</Folder>
@@ -300,7 +286,6 @@
 									</Action>
 								</Actions>
 								<Condition Enabled="false" Grouping="Or"/>
-								<Conditions/>
 							</Trigger>
 						</Triggers>
 					</Folder>
@@ -320,7 +305,6 @@
 									</Action>
 								</Actions>
 								<Condition Enabled="false" Grouping="Or"/>
-								<Conditions/>
 							</Trigger>
 						</Triggers>
 					</Folder>
@@ -347,7 +331,6 @@
 											</Action>
 										</Actions>
 										<Condition Enabled="false" Grouping="Or"/>
-										<Conditions/>
 									</Trigger>
 								</Triggers>
 							</Folder>
@@ -367,7 +350,6 @@
 											</Action>
 										</Actions>
 										<Condition Enabled="false" Grouping="Or"/>
-										<Conditions/>
 									</Trigger>
 								</Triggers>
 							</Folder>
@@ -387,7 +369,6 @@
 											</Action>
 										</Actions>
 										<Condition Enabled="false" Grouping="Or"/>
-										<Conditions/>
 									</Trigger>
 								</Triggers>
 							</Folder>
@@ -412,7 +393,6 @@
 											</Action>
 										</Actions>
 										<Condition Enabled="false" Grouping="Or"/>
-										<Conditions/>
 									</Trigger>
 								</Triggers>
 							</Folder>
@@ -432,7 +412,6 @@
 											</Action>
 										</Actions>
 										<Condition Enabled="false" Grouping="Or"/>
-										<Conditions/>
 									</Trigger>
 								</Triggers>
 							</Folder>
@@ -457,7 +436,6 @@
 											</Action>
 										</Actions>
 										<Condition Enabled="false" Grouping="Or"/>
-										<Conditions/>
 									</Trigger>
 								</Triggers>
 							</Folder>
@@ -477,7 +455,6 @@
 											</Action>
 										</Actions>
 										<Condition Enabled="false" Grouping="Or"/>
-										<Conditions/>
 									</Trigger>
 								</Triggers>
 							</Folder>
@@ -497,7 +474,6 @@
 											</Action>
 										</Actions>
 										<Condition Enabled="false" Grouping="Or"/>
-										<Conditions/>
 									</Trigger>
 								</Triggers>
 							</Folder>
@@ -517,7 +493,6 @@
 											</Action>
 										</Actions>
 										<Condition Enabled="false" Grouping="Or"/>
-										<Conditions/>
 									</Trigger>
 								</Triggers>
 							</Folder>
@@ -537,7 +512,6 @@
 											</Action>
 										</Actions>
 										<Condition Enabled="false" Grouping="Or"/>
-										<Conditions/>
 									</Trigger>
 								</Triggers>
 							</Folder>
@@ -557,7 +531,6 @@
 											</Action>
 										</Actions>
 										<Condition Enabled="false" Grouping="Or"/>
-										<Conditions/>
 									</Trigger>
 								</Triggers>
 							</Folder>
@@ -577,7 +550,6 @@
 											</Action>
 										</Actions>
 										<Condition Enabled="false" Grouping="Or"/>
-										<Conditions/>
 									</Trigger>
 								</Triggers>
 							</Folder>
@@ -597,7 +569,6 @@
 											</Action>
 										</Actions>
 										<Condition Enabled="false" Grouping="Or"/>
-										<Conditions/>
 									</Trigger>
 								</Triggers>
 							</Folder>
@@ -617,7 +588,6 @@
 											</Action>
 										</Actions>
 										<Condition Enabled="false" Grouping="Or"/>
-										<Conditions/>
 									</Trigger>
 								</Triggers>
 							</Folder>
@@ -637,7 +607,6 @@
 											</Action>
 										</Actions>
 										<Condition Enabled="false" Grouping="Or"/>
-										<Conditions/>
 									</Trigger>
 								</Triggers>
 							</Folder>
@@ -657,7 +626,6 @@
 											</Action>
 										</Actions>
 										<Condition Enabled="false" Grouping="Or"/>
-										<Conditions/>
 									</Trigger>
 								</Triggers>
 							</Folder>
@@ -677,7 +645,6 @@
 											</Action>
 										</Actions>
 										<Condition Enabled="false" Grouping="Or"/>
-										<Conditions/>
 									</Trigger>
 								</Triggers>
 							</Folder>
@@ -702,7 +669,6 @@
 											</Action>
 										</Actions>
 										<Condition Enabled="false" Grouping="Or"/>
-										<Conditions/>
 									</Trigger>
 								</Triggers>
 							</Folder>
@@ -722,42 +688,6 @@
 											</Action>
 										</Actions>
 										<Condition Enabled="false" Grouping="Or"/>
-										<Conditions/>
-									</Trigger>
-								</Triggers>
-							</Folder>
-							<Folder ZoneFilterEnabled="True" Id="f6663094-4900-4b30-b14e-5dbb22b2513c" ZoneFilterRegularExpression="^零式万魔殿\ \(边境之狱4\)$" Name="零式万魔殿 (边境之狱4)" Enabled="true">
-								<Folders/>
-								<Triggers>
-									<Trigger Enabled="true" Name="设置场地标点2" Id="22cfa2dc-6f65-49a5-aba7-e292abd0f4bb" RegularExpression="^.{14} ChatLog 00:0038::设置场地标点2。$">
-										<Actions>
-											<Action OrderNumber="1" NamedCallbackName="place" NamedCallbackParam="{&quot;Name&quot;:&quot;零式万魔殿 (边境之狱4) 2&quot;,&quot;MapID&quot;:0,&quot;A&quot;:{&quot;X&quot;:105.0,&quot;Y&quot;:0.0,&quot;Z&quot;:85.0,&quot;ID&quot;:0,&quot;Active&quot;:true},&quot;B&quot;:{&quot;X&quot;:115.0,&quot;Y&quot;:0.0,&quot;Z&quot;:105.0,&quot;ID&quot;:1,&quot;Active&quot;:true},&quot;C&quot;:{&quot;X&quot;:95.0,&quot;Y&quot;:0.0,&quot;Z&quot;:115.0,&quot;ID&quot;:2,&quot;Active&quot;:true},&quot;D&quot;:{&quot;X&quot;:85.0,&quot;Y&quot;:0.0,&quot;Z&quot;:95.0,&quot;ID&quot;:3,&quot;Active&quot;:true},&quot;One&quot;:{&quot;X&quot;:97.5,&quot;Y&quot;:0.0,&quot;Z&quot;:81.125,&quot;ID&quot;:4,&quot;Active&quot;:true},&quot;Two&quot;:{&quot;X&quot;:118.875,&quot;Y&quot;:0.0,&quot;Z&quot;:97.5,&quot;ID&quot;:5,&quot;Active&quot;:true},&quot;Three&quot;:{&quot;X&quot;:102.5,&quot;Y&quot;:0.0,&quot;Z&quot;:118.875,&quot;ID&quot;:6,&quot;Active&quot;:true},&quot;Four&quot;:{&quot;X&quot;:81.125,&quot;Y&quot;:0.0,&quot;Z&quot;:102.5,&quot;ID&quot;:7,&quot;Active&quot;:true}}" OBSEndPoint="ws://${_const[OBSWebsocketEndpoint]}:${_const[OBSWebsocketPort]}" OBSPassword="${_const[OBSWebsocketPassword]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback">
-												<Condition Enabled="false" Grouping="Or"/>
-											</Action>
-											<Action OrderNumber="2" NamedCallbackName="command" NamedCallbackParam="/waymark save 1" OBSEndPoint="ws://${_const[OBSWebsocketEndpoint]}:${_const[OBSWebsocketPort]}" OBSPassword="${_const[OBSWebsocketPassword]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" ExecutionDelayExpression="500">
-												<Condition Enabled="false" Grouping="Or"/>
-											</Action>
-											<Action OrderNumber="3" NamedCallbackName="command" NamedCallbackParam="/waymark preset 1" OBSEndPoint="ws://${_const[OBSWebsocketEndpoint]}:${_const[OBSWebsocketPort]}" OBSPassword="${_const[OBSWebsocketPassword]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" ExecutionDelayExpression="550">
-												<Condition Enabled="false" Grouping="Or"/>
-											</Action>
-										</Actions>
-										<Condition Enabled="false" Grouping="Or"/>
-										<Conditions/>
-									</Trigger>
-									<Trigger Enabled="true" Name="设置场地标点" Id="7f0f1dd7-7bc3-47c5-a125-340748adf6e8" RegularExpression="^.{14} ChatLog 00:0038::设置场地标点。$">
-										<Actions>
-											<Action OrderNumber="1" NamedCallbackName="place" NamedCallbackParam="{&quot;Name&quot;:&quot;零式万魔殿 (边境之狱4)&quot;,&quot;MapID&quot;:0,&quot;A&quot;:{&quot;X&quot;:100.0,&quot;Y&quot;:0.0,&quot;Z&quot;:82.5,&quot;ID&quot;:0,&quot;Active&quot;:true},&quot;B&quot;:{&quot;X&quot;:117.5,&quot;Y&quot;:0.0,&quot;Z&quot;:100.0,&quot;ID&quot;:1,&quot;Active&quot;:true},&quot;C&quot;:{&quot;X&quot;:100.0,&quot;Y&quot;:0.0,&quot;Z&quot;:117.5,&quot;ID&quot;:2,&quot;Active&quot;:true},&quot;D&quot;:{&quot;X&quot;:82.5,&quot;Y&quot;:0.0,&quot;Z&quot;:100.0,&quot;ID&quot;:3,&quot;Active&quot;:true},&quot;One&quot;:{&quot;X&quot;:100.0,&quot;Y&quot;:0.0,&quot;Z&quot;:92.5,&quot;ID&quot;:4,&quot;Active&quot;:true},&quot;Two&quot;:{&quot;X&quot;:107.5,&quot;Y&quot;:0.0,&quot;Z&quot;:100.0,&quot;ID&quot;:5,&quot;Active&quot;:true},&quot;Three&quot;:{&quot;X&quot;:100.0,&quot;Y&quot;:0.0,&quot;Z&quot;:107.5,&quot;ID&quot;:6,&quot;Active&quot;:true},&quot;Four&quot;:{&quot;X&quot;:92.5,&quot;Y&quot;:0.0,&quot;Z&quot;:100.0,&quot;ID&quot;:7,&quot;Active&quot;:true}}" OBSEndPoint="ws://${_const[OBSWebsocketEndpoint]}:${_const[OBSWebsocketPort]}" OBSPassword="${_const[OBSWebsocketPassword]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback">
-												<Condition Enabled="false" Grouping="Or"/>
-											</Action>
-											<Action OrderNumber="2" NamedCallbackName="command" NamedCallbackParam="/waymark save 1" OBSEndPoint="ws://${_const[OBSWebsocketEndpoint]}:${_const[OBSWebsocketPort]}" OBSPassword="${_const[OBSWebsocketPassword]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" ExecutionDelayExpression="500">
-												<Condition Enabled="false" Grouping="Or"/>
-											</Action>
-											<Action OrderNumber="3" NamedCallbackName="command" NamedCallbackParam="/waymark preset 1" OBSEndPoint="ws://${_const[OBSWebsocketEndpoint]}:${_const[OBSWebsocketPort]}" OBSPassword="${_const[OBSWebsocketPassword]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" ExecutionDelayExpression="550">
-												<Condition Enabled="false" Grouping="Or"/>
-											</Action>
-										</Actions>
-										<Condition Enabled="false" Grouping="Or"/>
-										<Conditions/>
 									</Trigger>
 								</Triggers>
 							</Folder>
@@ -767,6 +697,40 @@
 									<Trigger Enabled="true" Name="设置场地标点" Id="6857ad59-51f1-4aa0-b38f-24c1f9b6777f" RegularExpression="^.{14} ChatLog 00:0839::“零式万魔殿 边境之狱1”任务开始。$">
 										<Actions>
 											<Action OrderNumber="1" NamedCallbackName="place" NamedCallbackParam="{&quot;Name&quot;:&quot;零式万魔殿 (边境之狱1)&quot;,&quot;MapID&quot;:0,&quot;A&quot;:{&quot;X&quot;:100.0,&quot;Y&quot;:0.0,&quot;Z&quot;:96.0,&quot;ID&quot;:0,&quot;Active&quot;:true},&quot;B&quot;:{&quot;X&quot;:104.0,&quot;Y&quot;:0.0,&quot;Z&quot;:100.0,&quot;ID&quot;:1,&quot;Active&quot;:true},&quot;C&quot;:{&quot;X&quot;:100.0,&quot;Y&quot;:0.0,&quot;Z&quot;:104.0,&quot;ID&quot;:2,&quot;Active&quot;:true},&quot;D&quot;:{&quot;X&quot;:96.0,&quot;Y&quot;:0.0,&quot;Z&quot;:100.0,&quot;ID&quot;:3,&quot;Active&quot;:true},&quot;One&quot;:{&quot;X&quot;:90.0,&quot;Y&quot;:0.0,&quot;Z&quot;:90.0,&quot;ID&quot;:4,&quot;Active&quot;:true},&quot;Two&quot;:{&quot;X&quot;:110.0,&quot;Y&quot;:0.0,&quot;Z&quot;:90.0,&quot;ID&quot;:5,&quot;Active&quot;:true},&quot;Three&quot;:{&quot;X&quot;:110.0,&quot;Y&quot;:0.0,&quot;Z&quot;:110.0,&quot;ID&quot;:6,&quot;Active&quot;:true},&quot;Four&quot;:{&quot;X&quot;:90.0,&quot;Y&quot;:0.0,&quot;Z&quot;:110.0,&quot;ID&quot;:7,&quot;Active&quot;:true}}" OBSEndPoint="ws://${_const[OBSWebsocketEndpoint]}:${_const[OBSWebsocketPort]}" OBSPassword="${_const[OBSWebsocketPassword]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback">
+												<Condition Enabled="false" Grouping="Or"/>
+											</Action>
+											<Action OrderNumber="2" NamedCallbackName="command" NamedCallbackParam="/waymark save 1" OBSEndPoint="ws://${_const[OBSWebsocketEndpoint]}:${_const[OBSWebsocketPort]}" OBSPassword="${_const[OBSWebsocketPassword]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" ExecutionDelayExpression="500">
+												<Condition Enabled="false" Grouping="Or"/>
+											</Action>
+											<Action OrderNumber="3" NamedCallbackName="command" NamedCallbackParam="/waymark preset 1" OBSEndPoint="ws://${_const[OBSWebsocketEndpoint]}:${_const[OBSWebsocketPort]}" OBSPassword="${_const[OBSWebsocketPassword]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" ExecutionDelayExpression="550">
+												<Condition Enabled="false" Grouping="Or"/>
+											</Action>
+										</Actions>
+										<Condition Enabled="false" Grouping="Or"/>
+									</Trigger>
+								</Triggers>
+							</Folder>
+							<Folder ZoneFilterEnabled="True" Id="e6608468-c374-491d-b619-50b5afadbd68" ZoneFilterRegularExpression="^零式万魔殿\ \(边境之狱4\)$" Name="零式万魔殿 (边境之狱4)" Enabled="true">
+								<Folders/>
+								<Triggers>
+									<Trigger Enabled="true" Name="设置场地标点2" Id="f170d3c3-45a1-498e-a0b7-6efaf48d7cee" RegularExpression="^.{14} ChatLog 00:0038::设置场地标点2。$">
+										<Actions>
+											<Action OrderNumber="1" NamedCallbackName="place" NamedCallbackParam="{&quot;Name&quot;:&quot;零式万魔殿 (边境之狱4)&quot;,&quot;MapID&quot;:0,&quot;A&quot;:{&quot;X&quot;:99.058,&quot;Y&quot;:0,&quot;Z&quot;:81.135,&quot;ID&quot;:0,&quot;Active&quot;:true},&quot;B&quot;:{&quot;X&quot;:119.352,&quot;Y&quot;:0,&quot;Z&quot;:99.316,&quot;ID&quot;:1,&quot;Active&quot;:true},&quot;C&quot;:{&quot;X&quot;:100.747,&quot;Y&quot;:0,&quot;Z&quot;:119.114,&quot;ID&quot;:2,&quot;Active&quot;:true},&quot;D&quot;:{&quot;X&quot;:80.574,&quot;Y&quot;:0,&quot;Z&quot;:101.415,&quot;ID&quot;:3,&quot;Active&quot;:true},&quot;One&quot;:{&quot;X&quot;:105.052,&quot;Y&quot;:0,&quot;Z&quot;:84.859,&quot;ID&quot;:4,&quot;Active&quot;:true},&quot;Two&quot;:{&quot;X&quot;:114.869,&quot;Y&quot;:0,&quot;Z&quot;:104.923,&quot;ID&quot;:5,&quot;Active&quot;:true},&quot;Three&quot;:{&quot;X&quot;:95.007,&quot;Y&quot;:0,&quot;Z&quot;:114.873,&quot;ID&quot;:6,&quot;Active&quot;:true},&quot;Four&quot;:{&quot;X&quot;:85,&quot;Y&quot;:0,&quot;Z&quot;:95.019,&quot;ID&quot;:7,&quot;Active&quot;:true}}" OBSEndPoint="ws://${_const[OBSWebsocketEndpoint]}:${_const[OBSWebsocketPort]}" OBSPassword="${_const[OBSWebsocketPassword]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback">
+												<Condition Enabled="false" Grouping="Or"/>
+											</Action>
+											<Action OrderNumber="2" NamedCallbackName="command" NamedCallbackParam="/waymark save 1" OBSEndPoint="ws://${_const[OBSWebsocketEndpoint]}:${_const[OBSWebsocketPort]}" OBSPassword="${_const[OBSWebsocketPassword]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" ExecutionDelayExpression="500">
+												<Condition Enabled="false" Grouping="Or"/>
+											</Action>
+											<Action OrderNumber="3" NamedCallbackName="command" NamedCallbackParam="/waymark preset 1" OBSEndPoint="ws://${_const[OBSWebsocketEndpoint]}:${_const[OBSWebsocketPort]}" OBSPassword="${_const[OBSWebsocketPassword]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" ExecutionDelayExpression="550">
+												<Condition Enabled="false" Grouping="Or"/>
+											</Action>
+										</Actions>
+										<Condition Enabled="false" Grouping="Or"/>
+										<Conditions/>
+									</Trigger>
+									<Trigger Enabled="true" Name="设置场地标点" Id="e2aa7d17-0d8e-4b1c-a38b-d789ad51ded5" RegularExpression="^.{14} ChatLog 00:0038::设置场地标点。$">
+										<Actions>
+											<Action OrderNumber="1" NamedCallbackName="place" NamedCallbackParam="{&quot;Name&quot;:&quot;零式万魔殿 (边境之狱4)&quot;,&quot;MapID&quot;:0,&quot;A&quot;:{&quot;X&quot;:100,&quot;Y&quot;:0,&quot;Z&quot;:85,&quot;ID&quot;:0,&quot;Active&quot;:true},&quot;B&quot;:{&quot;X&quot;:115,&quot;Y&quot;:0,&quot;Z&quot;:100,&quot;ID&quot;:1,&quot;Active&quot;:true},&quot;C&quot;:{&quot;X&quot;:100,&quot;Y&quot;:0,&quot;Z&quot;:115,&quot;ID&quot;:2,&quot;Active&quot;:true},&quot;D&quot;:{&quot;X&quot;:85,&quot;Y&quot;:0,&quot;Z&quot;:100,&quot;ID&quot;:3,&quot;Active&quot;:true},&quot;One&quot;:{&quot;X&quot;:100,&quot;Y&quot;:0,&quot;Z&quot;:102.5,&quot;ID&quot;:4,&quot;Active&quot;:true},&quot;Two&quot;:{&quot;X&quot;:100,&quot;Y&quot;:0,&quot;Z&quot;:107.5,&quot;ID&quot;:5,&quot;Active&quot;:true},&quot;Three&quot;:{&quot;X&quot;:0,&quot;Y&quot;:0,&quot;Z&quot;:0,&quot;ID&quot;:6,&quot;Active&quot;:false},&quot;Four&quot;:{&quot;X&quot;:0,&quot;Y&quot;:0,&quot;Z&quot;:0,&quot;ID&quot;:7,&quot;Active&quot;:false}}" OBSEndPoint="ws://${_const[OBSWebsocketEndpoint]}:${_const[OBSWebsocketPort]}" OBSPassword="${_const[OBSWebsocketPassword]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback">
 												<Condition Enabled="false" Grouping="Or"/>
 											</Action>
 											<Action OrderNumber="2" NamedCallbackName="command" NamedCallbackParam="/waymark save 1" OBSEndPoint="ws://${_const[OBSWebsocketEndpoint]}:${_const[OBSWebsocketPort]}" OBSPassword="${_const[OBSWebsocketPassword]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" ExecutionDelayExpression="500">
@@ -805,7 +769,6 @@
 									</Action>
 								</Actions>
 								<Condition Enabled="false" Grouping="Or"/>
-								<Conditions/>
 							</Trigger>
 							<Trigger Enabled="true" Name="设置场地标点" Id="1756562f-96b7-486f-b7c8-db1e34b1b092" RegularExpression="^.{14} ChatLog 00:0038::设置场地标点。$">
 								<Actions>
@@ -820,7 +783,6 @@
 									</Action>
 								</Actions>
 								<Condition Enabled="false" Grouping="Or"/>
-								<Conditions/>
 							</Trigger>
 						</Triggers>
 					</Folder>
@@ -840,7 +802,6 @@
 									</Action>
 								</Actions>
 								<Condition Enabled="false" Grouping="Or"/>
-								<Conditions/>
 							</Trigger>
 						</Triggers>
 					</Folder>
@@ -860,7 +821,6 @@
 									</Action>
 								</Actions>
 								<Condition Enabled="false" Grouping="Or"/>
-								<Conditions/>
 							</Trigger>
 						</Triggers>
 					</Folder>
@@ -880,7 +840,6 @@
 									</Action>
 								</Actions>
 								<Condition Enabled="false" Grouping="Or"/>
-								<Conditions/>
 							</Trigger>
 						</Triggers>
 					</Folder>
