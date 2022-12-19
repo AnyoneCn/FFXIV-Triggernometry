@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <TriggernometryExport Version="1">
-  <ExportedFolder Id="45423187-beb9-4fe1-9e4c-2da7367130e7" Name="场地标点-6.2.2" Enabled="false">
+  <ExportedFolder Id="45423187-beb9-4fe1-9e4c-2da7367130e7" Name="场地标点-6.2.3" Enabled="true">
     <Folders>
       <Folder Id="d9999bc2-1d0a-4f5b-9d1e-33d888a79bce" Name="讨伐歼殛战" Enabled="true">
         <Folders>
@@ -344,12 +344,12 @@
               </Trigger>
             </Triggers>
           </Folder>
-          <Folder ZoneFilterEnabled="True" Id="d159271c-d608-4fdc-9b10-ef0155370fe7" ZoneFilterRegularExpression="^Storm's\ Crown\ \(Extreme\)$" Name="[6.2] 巴尔巴莉希娅歼殛战" Enabled="true">
+          <Folder ZoneFilterEnabled="True" Id="d159271c-d608-4fdc-9b10-ef0155370fe7" ZoneFilterRegularExpression="^巴尔巴莉希娅歼殛战$" Name="[6.2] 巴尔巴莉希娅歼殛战" Enabled="true">
             <Folders />
             <Triggers>
               <Trigger Enabled="true" Name="设置场地标点" Id="dbb8a206-77f5-4cc5-bfcc-c1516f5de458" RegularExpression="^.{14} ChatLog 00:0038::设置场地标点。$">
                 <Actions>
-                  <Action OrderNumber="1" NamedCallbackName="place" NamedCallbackParam="{&quot;Name&quot;:&quot;巴尔巴莉希娅歼殛战&quot;,&quot;MapID&quot;:0,&quot;A&quot;:{&quot;X&quot;:100.047,&quot;Y&quot;:0,&quot;Z&quot;:88.478,&quot;ID&quot;:0,&quot;Active&quot;:true},&quot;B&quot;:{&quot;X&quot;:113.429,&quot;Y&quot;:0,&quot;Z&quot;:99.518,&quot;ID&quot;:1,&quot;Active&quot;:true},&quot;C&quot;:{&quot;X&quot;:99.857,&quot;Y&quot;:0,&quot;Z&quot;:112.391,&quot;ID&quot;:2,&quot;Active&quot;:true},&quot;D&quot;:{&quot;X&quot;:86.216,&quot;Y&quot;:0,&quot;Z&quot;:98.747,&quot;ID&quot;:3,&quot;Active&quot;:true},&quot;One&quot;:{&quot;X&quot;:106.48,&quot;Y&quot;:0,&quot;Z&quot;:94.675,&quot;ID&quot;:4,&quot;Active&quot;:true},&quot;Two&quot;:{&quot;X&quot;:0,&quot;Y&quot;:0,&quot;Z&quot;:0,&quot;ID&quot;:5,&quot;Active&quot;:false},&quot;Three&quot;:{&quot;X&quot;:94.138,&quot;Y&quot;:0,&quot;Z&quot;:106.023,&quot;ID&quot;:6,&quot;Active&quot;:true},&quot;Four&quot;:{&quot;X&quot;:0,&quot;Y&quot;:0,&quot;Z&quot;:0,&quot;ID&quot;:7,&quot;Active&quot;:false}}" OBSEndPoint="ws://${_const[OBSWebsocketEndpoint]}:${_const[OBSWebsocketPort]}" OBSPassword="${_const[OBSWebsocketPassword]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback">
+                  <Action OrderNumber="1" NamedCallbackName="place" NamedCallbackParam="{&quot;Name&quot;:&quot;巴尔巴莉希娅歼殛战&quot;,&quot;MapID&quot;:0,&quot;A&quot;:{&quot;X&quot;:100,&quot;Y&quot;:0,&quot;Z&quot;:91.5,&quot;ID&quot;:0,&quot;Active&quot;:true},&quot;B&quot;:{&quot;X&quot;:108.5,&quot;Y&quot;:0,&quot;Z&quot;:100,&quot;ID&quot;:1,&quot;Active&quot;:true},&quot;C&quot;:{&quot;X&quot;:100,&quot;Y&quot;:0,&quot;Z&quot;:108.5,&quot;ID&quot;:2,&quot;Active&quot;:true},&quot;D&quot;:{&quot;X&quot;:91.5,&quot;Y&quot;:0,&quot;Z&quot;:100,&quot;ID&quot;:3,&quot;Active&quot;:true},&quot;One&quot;:{&quot;X&quot;:106,&quot;Y&quot;:0,&quot;Z&quot;:&quot;91.5&quot;,&quot;ID&quot;:4,&quot;Active&quot;:true},&quot;Two&quot;:{&quot;X&quot;:106,&quot;Y&quot;:0,&quot;Z&quot;:94,&quot;ID&quot;:5,&quot;Active&quot;:false},&quot;Three&quot;:{&quot;X&quot;:&quot;92.5&quot;,&quot;Y&quot;:0,&quot;Z&quot;:&quot;108.5&quot;,&quot;ID&quot;:6,&quot;Active&quot;:true},&quot;Four&quot;:{&quot;X&quot;:94,&quot;Y&quot;:0,&quot;Z&quot;:106,&quot;ID&quot;:7,&quot;Active&quot;:false}}" OBSEndPoint="ws://${_const[OBSWebsocketEndpoint]}:${_const[OBSWebsocketPort]}" OBSPassword="${_const[OBSWebsocketPassword]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback">
                     <Condition Enabled="false" Grouping="Or" />
                   </Action>
                   <Action OrderNumber="2" NamedCallbackName="command" NamedCallbackParam="/waymark save 1" OBSEndPoint="ws://${_const[OBSWebsocketEndpoint]}:${_const[OBSWebsocketPort]}" OBSPassword="${_const[OBSWebsocketPassword]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" ExecutionDelayExpression="500">
@@ -821,7 +821,7 @@
                   </Trigger>
                 </Triggers>
               </Folder>
-              <Folder ZoneFilterEnabled="True" Id="9a2a1667-fc65-4135-b96e-f7883e62d6b1" ZoneFilterRegularExpression="^Abyssos:\ The\ Seventh\ Circle\ \(Savage\)$" Name="零式万魔殿 (炼净之狱3)" Enabled="true">
+              <Folder ZoneFilterEnabled="True" Id="9a2a1667-fc65-4135-b96e-f7883e62d6b1" ZoneFilterRegularExpression="^零式万魔殿\ \(炼净之狱3\)$" Name="零式万魔殿 (炼净之狱3)" Enabled="true">
                 <Folders />
                 <Triggers>
                   <Trigger Enabled="true" Name="设置场地标点" Id="22f031f4-09f3-4cfd-b812-9f80c27652b9" RegularExpression="^.{14} ChatLog 00:0038::设置场地标点。$">
@@ -841,7 +841,7 @@
                   </Trigger>
                 </Triggers>
               </Folder>
-              <Folder ZoneFilterEnabled="True" Id="cd8de2a2-ed95-409c-b8cc-bd9f38d66c9c" ZoneFilterRegularExpression="^Abyssos:\ The\ Eighth\ Circle\ \(Savage\)$" Name="零式万魔殿 (炼净之狱4)" Enabled="true">
+              <Folder ZoneFilterEnabled="True" Id="cd8de2a2-ed95-409c-b8cc-bd9f38d66c9c" ZoneFilterRegularExpression="^零式万魔殿\ \(炼净之狱4\)$" Name="零式万魔殿 (炼净之狱4)" Enabled="true">
                 <Folders />
                 <Triggers>
                   <Trigger Enabled="true" Name="设置场地标点2" Id="9d5d67b2-429c-467b-b7f8-b4e3645b18b7" RegularExpression="^.{14} ChatLog 00:0038::设置场地标点2。$">
@@ -876,12 +876,12 @@
                   </Trigger>
                 </Triggers>
               </Folder>
-              <Folder ZoneFilterEnabled="True" Id="e95bfe47-23fc-4041-bf33-08a280d8b0d7" ZoneFilterRegularExpression="^Abyssos:\ The\ Sixth\ Circle\ \(Savage\)$" Name="零式万魔殿 (炼净之狱2)" Enabled="true">
+              <Folder ZoneFilterEnabled="True" Id="e95bfe47-23fc-4041-bf33-08a280d8b0d7" ZoneFilterRegularExpression="^零式万魔殿\ \(炼净之狱2\)$" Name="零式万魔殿 (炼净之狱2)" Enabled="true">
                 <Folders />
                 <Triggers>
                   <Trigger Enabled="true" Name="设置场地标点" Id="e0684ba5-8d36-4e85-8525-b9209cc0147d" RegularExpression="^.{14} ChatLog 00:0038::设置场地标点。$">
                     <Actions>
-                      <Action OrderNumber="1" NamedCallbackName="place" NamedCallbackParam="{&quot;Name&quot;:&quot;零式万魔殿 (炼净之狱2)&quot;,&quot;MapID&quot;:0,&quot;A&quot;:{&quot;X&quot;:108.7,&quot;Y&quot;:0,&quot;Z&quot;:91.3,&quot;ID&quot;:0,&quot;Active&quot;:true},&quot;B&quot;:{&quot;X&quot;:115,&quot;Y&quot;:0,&quot;Z&quot;:100,&quot;ID&quot;:1,&quot;Active&quot;:true},&quot;C&quot;:{&quot;X&quot;:108.7,&quot;Y&quot;:0,&quot;Z&quot;:108.7,&quot;ID&quot;:2,&quot;Active&quot;:true},&quot;D&quot;:{&quot;X&quot;:104.5,&quot;Y&quot;:0,&quot;Z&quot;:100,&quot;ID&quot;:3,&quot;Active&quot;:true},&quot;One&quot;:{&quot;X&quot;:91.3,&quot;Y&quot;:0,&quot;Z&quot;:91.3,&quot;ID&quot;:4,&quot;Active&quot;:true},&quot;Two&quot;:{&quot;X&quot;:85,&quot;Y&quot;:0,&quot;Z&quot;:100,&quot;ID&quot;:5,&quot;Active&quot;:true},&quot;Three&quot;:{&quot;X&quot;:91.3,&quot;Y&quot;:0,&quot;Z&quot;:108.7,&quot;ID&quot;:6,&quot;Active&quot;:true},&quot;Four&quot;:{&quot;X&quot;:95.5,&quot;Y&quot;:0,&quot;Z&quot;:100,&quot;ID&quot;:7,&quot;Active&quot;:true}}" OBSEndPoint="ws://${_const[OBSWebsocketEndpoint]}:${_const[OBSWebsocketPort]}" OBSPassword="${_const[OBSWebsocketPassword]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback">
+                      <Action OrderNumber="1" NamedCallbackName="place" NamedCallbackParam="{&quot;Name&quot;:&quot;零式万魔殿 (炼净之狱2)&quot;,&quot;MapID&quot;:0,&quot;A&quot;:{&quot;X&quot;:100,&quot;Y&quot;:0,&quot;Z&quot;:81.627,&quot;ID&quot;:0,&quot;Active&quot;:true},&quot;B&quot;:{&quot;X&quot;:91.736,&quot;Y&quot;:0,&quot;Z&quot;:108.286,&quot;ID&quot;:1,&quot;Active&quot;:true},&quot;C&quot;:{&quot;X&quot;:&quot;100&quot;,&quot;Y&quot;:0,&quot;Z&quot;:118.349,&quot;ID&quot;:2,&quot;Active&quot;:true},&quot;D&quot;:{&quot;X&quot;:108.262,&quot;Y&quot;:0,&quot;Z&quot;:91.684,&quot;ID&quot;:3,&quot;Active&quot;:true},&quot;One&quot;:{&quot;X&quot;:98.328,&quot;Y&quot;:0,&quot;Z&quot;:98.306,&quot;ID&quot;:4,&quot;Active&quot;:true},&quot;Two&quot;:{&quot;X&quot;:101.672,&quot;Y&quot;:0,&quot;Z&quot;:98.328,&quot;ID&quot;:5,&quot;Active&quot;:true},&quot;Three&quot;:{&quot;X&quot;:93.316,&quot;Y&quot;:0,&quot;Z&quot;:93.313,&quot;ID&quot;:6,&quot;Active&quot;:true},&quot;Four&quot;:{&quot;X&quot;:106.622,&quot;Y&quot;:0,&quot;Z&quot;:106.681,&quot;ID&quot;:7,&quot;Active&quot;:true}}" OBSEndPoint="ws://${_const[OBSWebsocketEndpoint]}:${_const[OBSWebsocketPort]}" OBSPassword="${_const[OBSWebsocketPassword]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback">
                         <Condition Enabled="false" Grouping="Or" />
                       </Action>
                       <Action OrderNumber="2" NamedCallbackName="command" NamedCallbackParam="/waymark save 1" OBSEndPoint="ws://${_const[OBSWebsocketEndpoint]}:${_const[OBSWebsocketPort]}" OBSPassword="${_const[OBSWebsocketPassword]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" ExecutionDelayExpression="500">
@@ -896,7 +896,7 @@
                   </Trigger>
                 </Triggers>
               </Folder>
-              <Folder ZoneFilterEnabled="True" Id="ef6b13d9-e0af-495c-abd8-156e50e8e4c3" ZoneFilterRegularExpression="^Abyssos:\ The\ Fifth\ Circle\ \(Savage\)$" Name="零式万魔殿 (炼净之狱1)" Enabled="true">
+              <Folder ZoneFilterEnabled="True" Id="ef6b13d9-e0af-495c-abd8-156e50e8e4c3" ZoneFilterRegularExpression="^零式万魔殿\ \(炼净之狱1\)$" Name="零式万魔殿 (炼净之狱1)" Enabled="true">
                 <Folders />
                 <Triggers>
                   <Trigger Enabled="true" Name="设置场地标点" Id="6dc08ad9-7b11-4bfd-b158-e187f8cdeaf9" RegularExpression="^.{14} ChatLog 00:0038::设置场地标点。$">
