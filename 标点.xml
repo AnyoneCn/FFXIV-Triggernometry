@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <TriggernometryExport Version="1">
-  <ExportedFolder Id="45423187-beb9-4fe1-9e4c-2da7367130e7" Name="场地标点-6.2.1" Enabled="false">
+  <ExportedFolder Id="45423187-beb9-4fe1-9e4c-2da7367130e7" Name="场地标点-6.2.2" Enabled="false">
     <Folders>
       <Folder Id="d9999bc2-1d0a-4f5b-9d1e-33d888a79bce" Name="讨伐歼殛战" Enabled="true">
         <Folders>
@@ -224,7 +224,7 @@
               </Trigger>
             </Triggers>
           </Folder>
-          <Folder ZoneFilterEnabled="True" Id="d67bbb5f-d8b3-49c6-b18e-8c8361ee9b5d" ZoneFilterRegularExpression="^萨菲洛幻巧战$" Name="[6.2] 萨菲洛特幻巧战" Enabled="true">
+          <Folder ZoneFilterEnabled="True" Id="d67bbb5f-d8b3-49c6-b18e-8c8361ee9b5d" ZoneFilterRegularExpression="^萨菲洛特幻巧战$" Name="[6.2] 萨菲洛特幻巧战" Enabled="true">
             <Folders />
             <Triggers>
               <Trigger Enabled="true" Name="设置场地标点" Id="780b095a-49d9-4777-9a25-b377e51bcd20" RegularExpression="^.{14} ChatLog 00:0038::设置场地标点。$">
