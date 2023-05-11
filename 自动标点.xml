@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <TriggernometryExport Version="1">
-  <ExportedFolder Id="7a5782e1-9398-45c6-92e1-4ee1b51acd5a" Name="自动标点-6.3.4" Enabled="true">
+  <ExportedFolder Id="7a5782e1-9398-45c6-92e1-4ee1b51acd5a" Name="自动标点-6.3.5" Enabled="true">
     <Folders>
       <Folder Id="049659a7-8bc2-403f-bf25-7bc5cf5b3a45" Name="讨伐歼殛战" Enabled="true">
         <Folders>
@@ -329,7 +329,7 @@
             <Triggers>
               <Trigger Enabled="true" Name="设置场地标点" Id="950dbac5-5c9d-4cd8-9869-064556916379" RegularExpression="^.{14} ChatLog 00:0839::“卢比坎特歼殛战”任务开始。$">
                 <Actions>
-                  <Action OrderNumber="1" NamedCallbackName="place" NamedCallbackParam="{&quot;Name&quot;:&quot;卢比坎特歼殛战&quot;,&quot;MapID&quot;:0,&quot;A&quot;:{&quot;X&quot;:100,&quot;Y&quot;:0,&quot;Z&quot;:86,&quot;Active&quot;:true},&quot;B&quot;:{&quot;X&quot;:114,&quot;Y&quot;:0,&quot;Z&quot;:100,&quot;Active&quot;:true},&quot;C&quot;:{&quot;X&quot;:100,&quot;Y&quot;:0,&quot;Z&quot;:114,&quot;Active&quot;:true},&quot;D&quot;:{&quot;X&quot;:86,&quot;Y&quot;:0,&quot;Z&quot;:100,&quot;Active&quot;:true},&quot;One&quot;:{&quot;X&quot;:95,&quot;Y&quot;:0,&quot;Z&quot;:95,&quot;Active&quot;:true},&quot;Two&quot;:{&quot;X&quot;:105,&quot;Y&quot;:0,&quot;Z&quot;:95,&quot;Active&quot;:true},&quot;Three&quot;:{&quot;X&quot;:105,&quot;Y&quot;:0,&quot;Z&quot;:105,&quot;Active&quot;:true},&quot;Four&quot;:{&quot;X&quot;:95,&quot;Y&quot;:0,&quot;Z&quot;:105,&quot;Active&quot;:true}}" ActionType="NamedCallback">
+                  <Action OrderNumber="1" NamedCallbackName="place" NamedCallbackParam="{&quot;Name&quot;:&quot;卢比坎特歼殛战&quot;,&quot;MapID&quot;:0,&quot;A&quot;:{&quot;X&quot;:100.0,&quot;Y&quot;:0.0,&quot;Z&quot;:86.0,&quot;ID&quot;:0,&quot;Active&quot;:true},&quot;B&quot;:{&quot;X&quot;:114.0,&quot;Y&quot;:0.0,&quot;Z&quot;:100.0,&quot;ID&quot;:0,&quot;Active&quot;:true},&quot;C&quot;:{&quot;X&quot;:100.0,&quot;Y&quot;:0.0,&quot;Z&quot;:114.0,&quot;ID&quot;:0,&quot;Active&quot;:true},&quot;D&quot;:{&quot;X&quot;:86.0,&quot;Y&quot;:0.0,&quot;Z&quot;:100.0,&quot;ID&quot;:0,&quot;Active&quot;:true},&quot;One&quot;:{&quot;X&quot;:107.0,&quot;Y&quot;:0.0,&quot;Z&quot;:93.0,&quot;ID&quot;:0,&quot;Active&quot;:true},&quot;Two&quot;:{&quot;X&quot;:107.0,&quot;Y&quot;:0.0,&quot;Z&quot;:107.0,&quot;ID&quot;:0,&quot;Active&quot;:true},&quot;Three&quot;:{&quot;X&quot;:93.0,&quot;Y&quot;:0.0,&quot;Z&quot;:107.0,&quot;ID&quot;:0,&quot;Active&quot;:true},&quot;Four&quot;:{&quot;X&quot;:93.0,&quot;Y&quot;:0.0,&quot;Z&quot;:93.0,&quot;ID&quot;:0,&quot;Active&quot;:true}}" ActionType="NamedCallback">
                     <Condition Enabled="false" Grouping="Or" />
                   </Action>
                   <Action OrderNumber="2" NamedCallbackName="command" NamedCallbackParam="/waymark save 30" ActionType="NamedCallback" ExecutionDelayExpression="500">
