@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <TriggernometryExport Version="1">
-  <ExportedFolder Id="5276c779-3333-4fbe-bb1c-8dd1e03a6a39" Name="场地标点-6.5.2" Enabled="true">
+  <ExportedFolder Id="5276c779-3333-4fbe-bb1c-8dd1e03a6a39" Name="场地标点-6.51.1" Enabled="true">
     <Folders>
       <Folder Id="3bebf4b8-2de0-4d7b-bd3d-fcc28851f3c4" Name="讨伐歼殛战" Enabled="true">
         <Folders>
@@ -327,25 +327,6 @@
               </Trigger>
             </Triggers>
           </Folder>
-          <Folder ZoneFilterEnabled="True" Id="a1a39d4d-f7f3-45f2-b1eb-a6d892bf1daf" ZoneFilterRegularExpression="^祖尔宛幻巧战$" Name="[6.4] 祖尔宛幻巧战" Enabled="true">
-            <Folders />
-            <Triggers>
-              <Trigger Enabled="true" Name="设置场地标点" Id="ea91a60b-0742-48ff-a8c5-aec4272701db" RegularExpression="^.{14} ChatLog 00:0038::设置场地标点。$">
-                <Actions>
-                  <Action OrderNumber="1" NamedCallbackName="place" NamedCallbackParam="{&quot;Name&quot;:&quot;祖尔宛幻巧战&quot;,&quot;MapID&quot;:0,&quot;A&quot;:{&quot;X&quot;:0.0,&quot;Y&quot;:0.0,&quot;Z&quot;:-18.0,&quot;ID&quot;:0,&quot;Active&quot;:true},&quot;B&quot;:{&quot;X&quot;:18.0,&quot;Y&quot;:0.0,&quot;Z&quot;:3.25,&quot;ID&quot;:1,&quot;Active&quot;:true},&quot;C&quot;:{&quot;X&quot;:0.0,&quot;Y&quot;:0.0,&quot;Z&quot;:18.0,&quot;ID&quot;:2,&quot;Active&quot;:true},&quot;D&quot;:{&quot;X&quot;:-18.0,&quot;Y&quot;:0.0,&quot;Z&quot;:-3.25,&quot;ID&quot;:3,&quot;Active&quot;:true},&quot;One&quot;:{&quot;X&quot;:0.0,&quot;Y&quot;:0.0,&quot;Z&quot;:0.0,&quot;ID&quot;:4,&quot;Active&quot;:false},&quot;Two&quot;:{&quot;X&quot;:6.5,&quot;Y&quot;:0.0,&quot;Z&quot;:-18.0,&quot;ID&quot;:5,&quot;Active&quot;:true},&quot;Three&quot;:{&quot;X&quot;:0.0,&quot;Y&quot;:0.0,&quot;Z&quot;:0.0,&quot;ID&quot;:6,&quot;Active&quot;:false},&quot;Four&quot;:{&quot;X&quot;:-6.5,&quot;Y&quot;:0.0,&quot;Z&quot;:18.0,&quot;ID&quot;:7,&quot;Active&quot;:true}}" ActionType="NamedCallback">
-                    <Condition Enabled="false" Grouping="Or" />
-                  </Action>
-                  <Action OrderNumber="2" NamedCallbackName="command" NamedCallbackParam="/waymark save 30" ActionType="NamedCallback" ExecutionDelayExpression="500">
-                    <Condition Enabled="false" Grouping="Or" />
-                  </Action>
-                  <Action OrderNumber="3" NamedCallbackName="command" NamedCallbackParam="/waymark preset 30" ActionType="NamedCallback" ExecutionDelayExpression="550">
-                    <Condition Enabled="false" Grouping="Or" />
-                  </Action>
-                </Actions>
-                <Condition Enabled="false" Grouping="Or" />
-              </Trigger>
-            </Triggers>
-          </Folder>
           <Folder ZoneFilterEnabled="True" Id="7eda7bb5-1f51-4ef9-9214-0ee592fd3ba8" ZoneFilterRegularExpression="^圆桌骑士幻巧战$" Name="[6.5] 圆桌骑士幻巧战" Enabled="true">
             <Folders />
             <Triggers>
@@ -362,7 +343,6 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
-                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -371,7 +351,7 @@
             <Triggers>
               <Trigger Enabled="true" Name="设置场地标点" Id="ca37c342-c869-421f-aa03-8310a7750d38" RegularExpression="^.{14} ChatLog 00:0038::设置场地标点。$">
                 <Actions>
-                  <Action OrderNumber="1" NamedCallbackName="place" NamedCallbackParam="{&quot;Name&quot;:&quot;泽罗姆斯歼殛战&quot;,&quot;MapID&quot;:0,&quot;A&quot;:{&quot;X&quot;:92.09,&quot;Z&quot;:81.31,&quot;Y&quot;:0,&quot;Active&quot;:true},&quot;B&quot;:{&quot;X&quot;:107.91,&quot;Z&quot;:81.28,&quot;Y&quot;:0,&quot;Active&quot;:true},&quot;C&quot;:{&quot;X&quot;:100.05,&quot;Z&quot;:99.98,&quot;Y&quot;:0,&quot;Active&quot;:true},&quot;D&quot;:{&quot;X&quot;:0,&quot;Z&quot;:0,&quot;Y&quot;:0,&quot;Active&quot;:false},&quot;One&quot;:{&quot;X&quot;:81.12,&quot;Z&quot;:81.11,&quot;Y&quot;:0,&quot;Active&quot;:true},&quot;Two&quot;:{&quot;X&quot;:118.9,&quot;Z&quot;:81.1,&quot;Y&quot;:0,&quot;Active&quot;:true},&quot;Three&quot;:{&quot;X&quot;:118.85,&quot;Z&quot;:92.09,&quot;Y&quot;:0,&quot;Active&quot;:true},&quot;Four&quot;:{&quot;X&quot;:81.01,&quot;Z&quot;:92.1,&quot;Y&quot;:0,&quot;Active&quot;:true}}" ActionType="NamedCallback">
+                  <Action OrderNumber="1" NamedCallbackName="place" NamedCallbackParam="{&quot;Name&quot;:&quot;泽罗姆斯歼殛战&quot;,&quot;MapID&quot;:0,&quot;A&quot;:{&quot;X&quot;:92.106,&quot;Y&quot;:0.0,&quot;Z&quot;:81.722,&quot;ID&quot;:0,&quot;Active&quot;:true},&quot;B&quot;:{&quot;X&quot;:108.157,&quot;Y&quot;:0.0,&quot;Z&quot;:81.418,&quot;ID&quot;:1,&quot;Active&quot;:true},&quot;C&quot;:{&quot;X&quot;:81.235,&quot;Y&quot;:0.0,&quot;Z&quot;:92.771,&quot;ID&quot;:2,&quot;Active&quot;:true},&quot;D&quot;:{&quot;X&quot;:119.0,&quot;Y&quot;:0.0,&quot;Z&quot;:93.307,&quot;ID&quot;:3,&quot;Active&quot;:true},&quot;One&quot;:{&quot;X&quot;:89.366,&quot;Y&quot;:0.0,&quot;Z&quot;:94.942,&quot;ID&quot;:4,&quot;Active&quot;:true},&quot;Two&quot;:{&quot;X&quot;:110.34,&quot;Y&quot;:0.0,&quot;Z&quot;:94.789,&quot;ID&quot;:5,&quot;Active&quot;:true},&quot;Three&quot;:{&quot;X&quot;:89.586,&quot;Y&quot;:0.0,&quot;Z&quot;:105.048,&quot;ID&quot;:6,&quot;Active&quot;:true},&quot;Four&quot;:{&quot;X&quot;:110.487,&quot;Y&quot;:0.0,&quot;Z&quot;:105.131,&quot;ID&quot;:7,&quot;Active&quot;:true}}" ActionType="NamedCallback">
                     <Condition Enabled="false" Grouping="Or" />
                   </Action>
                   <Action OrderNumber="2" NamedCallbackName="command" NamedCallbackParam="/waymark save 30" ActionType="NamedCallback" ExecutionDelayExpression="500">
@@ -382,7 +362,6 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
-                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -1322,6 +1301,106 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder ZoneFilterEnabled="True" Id="05251092-05ee-4cdd-ba7e-773fe2131a58" ZoneFilterRegularExpression="^异闻迷宫\ 异闻阿罗阿罗岛$" Name="[6.51]异闻迷宫 异闻阿罗阿罗岛" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="设置场地标点2" Id="dfb18acc-8611-4edd-ac3f-738a9c23bd26" RegularExpression="^.{14} ChatLog 00:0038::设置场地标点2。$">
+                <Actions>
+                  <Action OrderNumber="1" NamedCallbackName="place" NamedCallbackParam="{&quot;Name&quot;:&quot;异闻迷宫 异闻阿罗阿罗岛&quot;,&quot;MapID&quot;:0,&quot;A&quot;:{&quot;X&quot;:200,&quot;Y&quot;:-300.0,&quot;Z&quot;:-8,&quot;ID&quot;:0,&quot;Active&quot;:true},&quot;B&quot;:{&quot;X&quot;:208,&quot;Y&quot;:-300.0,&quot;Z&quot;:0,&quot;ID&quot;:1,&quot;Active&quot;:true},&quot;C&quot;:{&quot;X&quot;:200,&quot;Y&quot;:-300.0,&quot;Z&quot;:8,&quot;ID&quot;:2,&quot;Active&quot;:true},&quot;D&quot;:{&quot;X&quot;:192,&quot;Y&quot;:-300.0,&quot;Z&quot;:0,&quot;ID&quot;:3,&quot;Active&quot;:true},&quot;One&quot;:{&quot;X&quot;:212,&quot;Y&quot;:-300.0,&quot;Z&quot;:-12,&quot;ID&quot;:4,&quot;Active&quot;:true},&quot;Two&quot;:{&quot;X&quot;:212,&quot;Y&quot;:-300.0,&quot;Z&quot;:12,&quot;ID&quot;:5,&quot;Active&quot;:true},&quot;Three&quot;:{&quot;X&quot;:188,&quot;Y&quot;:-300.0,&quot;Z&quot;:12,&quot;ID&quot;:6,&quot;Active&quot;:true},&quot;Four&quot;:{&quot;X&quot;:188,&quot;Y&quot;:-300.0,&quot;Z&quot;:-12,&quot;ID&quot;:7,&quot;Active&quot;:true}}" ActionType="NamedCallback">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                  <Action OrderNumber="2" NamedCallbackName="command" NamedCallbackParam="/waymark save 30" ActionType="NamedCallback" ExecutionDelayExpression="500">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                  <Action OrderNumber="3" NamedCallbackName="command" NamedCallbackParam="/waymark preset 30" ActionType="NamedCallback" ExecutionDelayExpression="550">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="设置场地标点" Id="659daafa-579b-437b-a100-e7171da2da62" RegularExpression="^.{14} ChatLog 00:0038::设置场地标点。$">
+                <Actions>
+                  <Action OrderNumber="1" NamedCallbackName="place" NamedCallbackParam="{&quot;Name&quot;:&quot;异闻迷宫 异闻阿罗阿罗岛&quot;,&quot;MapID&quot;:0,&quot;A&quot;:{&quot;X&quot;:0.0,&quot;Y&quot;:0.0,&quot;Z&quot;:-10,&quot;ID&quot;:0,&quot;Active&quot;:true},&quot;B&quot;:{&quot;X&quot;:10.0,&quot;Y&quot;:0.0,&quot;Z&quot;:0.0,&quot;ID&quot;:1,&quot;Active&quot;:true},&quot;C&quot;:{&quot;X&quot;:0.0,&quot;Y&quot;:0.0,&quot;Z&quot;:10.0,&quot;ID&quot;:2,&quot;Active&quot;:true},&quot;D&quot;:{&quot;X&quot;:-10.0,&quot;Y&quot;:0.0,&quot;Z&quot;:0.0,&quot;ID&quot;:3,&quot;Active&quot;:true},&quot;One&quot;:{&quot;X&quot;:10.0,&quot;Y&quot;:0.0,&quot;Z&quot;:-10.0,&quot;ID&quot;:4,&quot;Active&quot;:true},&quot;Two&quot;:{&quot;X&quot;:10.0,&quot;Y&quot;:0.0,&quot;Z&quot;:10.0,&quot;ID&quot;:5,&quot;Active&quot;:true},&quot;Three&quot;:{&quot;X&quot;:-10.0,&quot;Y&quot;:0.0,&quot;Z&quot;:10.0,&quot;ID&quot;:6,&quot;Active&quot;:true},&quot;Four&quot;:{&quot;X&quot;:-10.0,&quot;Y&quot;:0.0,&quot;Z&quot;:-10.0,&quot;ID&quot;:7,&quot;Active&quot;:true}}" ActionType="NamedCallback">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                  <Action OrderNumber="2" NamedCallbackName="command" NamedCallbackParam="/waymark save 30" ActionType="NamedCallback" ExecutionDelayExpression="500">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                  <Action OrderNumber="3" NamedCallbackName="command" NamedCallbackParam="/waymark preset 30" ActionType="NamedCallback" ExecutionDelayExpression="550">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="设置场地标点3" Id="1b64d870-0604-43a1-8caf-3ee67cc2d0de" RegularExpression="^.{14} ChatLog 00:0038::设置场地标点3。$">
+                <Actions>
+                  <Action OrderNumber="1" NamedCallbackName="place" NamedCallbackParam="{&quot;Name&quot;:&quot;异闻迷宫 异闻阿罗阿罗岛&quot;,&quot;MapID&quot;:0,&quot;A&quot;:{&quot;X&quot;:-200,&quot;Y&quot;:-200.0,&quot;Z&quot;:-18.55,&quot;ID&quot;:0,&quot;Active&quot;:true},&quot;B&quot;:{&quot;X&quot;:-181.45,&quot;Y&quot;:-200.0,&quot;Z&quot;:0,&quot;ID&quot;:1,&quot;Active&quot;:true},&quot;C&quot;:{&quot;X&quot;:-200,&quot;Y&quot;:-200.0,&quot;Z&quot;:18.55,&quot;ID&quot;:2,&quot;Active&quot;:true},&quot;D&quot;:{&quot;X&quot;:-218.55,&quot;Y&quot;:-200.0,&quot;Z&quot;:0,&quot;ID&quot;:3,&quot;Active&quot;:true},&quot;One&quot;:{&quot;X&quot;:-186.883,&quot;Y&quot;:-200.0,&quot;Z&quot;:-13.117,&quot;ID&quot;:4,&quot;Active&quot;:true},&quot;Two&quot;:{&quot;X&quot;:-186.883,&quot;Y&quot;:-200.0,&quot;Z&quot;:13.117,&quot;ID&quot;:5,&quot;Active&quot;:true},&quot;Three&quot;:{&quot;X&quot;:-213.117,&quot;Y&quot;:-200.0,&quot;Z&quot;:13.117,&quot;ID&quot;:6,&quot;Active&quot;:true},&quot;Four&quot;:{&quot;X&quot;:-213.117,&quot;Y&quot;:-200.0,&quot;Z&quot;:-13.117,&quot;ID&quot;:7,&quot;Active&quot;:true}}" ActionType="NamedCallback">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                  <Action OrderNumber="2" NamedCallbackName="command" NamedCallbackParam="/waymark save 30" ActionType="NamedCallback" ExecutionDelayExpression="500">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                  <Action OrderNumber="3" NamedCallbackName="command" NamedCallbackParam="/waymark preset 30" ActionType="NamedCallback" ExecutionDelayExpression="550">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder ZoneFilterEnabled="True" Id="35d000f7-be03-4232-bfa2-4cc49d9ec98b" ZoneFilterRegularExpression="^异闻迷宫\ 零式异闻阿罗阿罗岛$" Name="[6.51]异闻迷宫 零式异闻阿罗阿罗岛" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="设置场地标点2" Id="b75c67c5-b440-42f5-aee4-be6d9c12dbb9" RegularExpression="^.{14} ChatLog 00:0038::设置场地标点2。$">
+                <Actions>
+                  <Action OrderNumber="1" NamedCallbackName="place" NamedCallbackParam="{&quot;Name&quot;:&quot;异闻迷宫 零式异闻阿罗阿罗岛&quot;,&quot;MapID&quot;:0,&quot;A&quot;:{&quot;X&quot;:200,&quot;Y&quot;:-300.0,&quot;Z&quot;:-8,&quot;ID&quot;:0,&quot;Active&quot;:true},&quot;B&quot;:{&quot;X&quot;:208,&quot;Y&quot;:-300.0,&quot;Z&quot;:0,&quot;ID&quot;:1,&quot;Active&quot;:true},&quot;C&quot;:{&quot;X&quot;:200,&quot;Y&quot;:-300.0,&quot;Z&quot;:8,&quot;ID&quot;:2,&quot;Active&quot;:true},&quot;D&quot;:{&quot;X&quot;:192,&quot;Y&quot;:-300.0,&quot;Z&quot;:0,&quot;ID&quot;:3,&quot;Active&quot;:true},&quot;One&quot;:{&quot;X&quot;:212,&quot;Y&quot;:-300.0,&quot;Z&quot;:-12,&quot;ID&quot;:4,&quot;Active&quot;:true},&quot;Two&quot;:{&quot;X&quot;:212,&quot;Y&quot;:-300.0,&quot;Z&quot;:12,&quot;ID&quot;:5,&quot;Active&quot;:true},&quot;Three&quot;:{&quot;X&quot;:188,&quot;Y&quot;:-300.0,&quot;Z&quot;:12,&quot;ID&quot;:6,&quot;Active&quot;:true},&quot;Four&quot;:{&quot;X&quot;:188,&quot;Y&quot;:-300.0,&quot;Z&quot;:-12,&quot;ID&quot;:7,&quot;Active&quot;:true}}" ActionType="NamedCallback">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                  <Action OrderNumber="2" NamedCallbackName="command" NamedCallbackParam="/waymark save 30" ActionType="NamedCallback" ExecutionDelayExpression="500">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                  <Action OrderNumber="3" NamedCallbackName="command" NamedCallbackParam="/waymark preset 30" ActionType="NamedCallback" ExecutionDelayExpression="550">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="设置场地标点" Id="a0dc80ec-ee11-41d2-b65d-667f1fc5dd3a" RegularExpression="^.{14} ChatLog 00:0038::设置场地标点。$">
+                <Actions>
+                  <Action OrderNumber="1" NamedCallbackName="place" NamedCallbackParam="{&quot;Name&quot;:&quot;异闻迷宫 零式异闻阿罗阿罗岛&quot;,&quot;MapID&quot;:0,&quot;A&quot;:{&quot;X&quot;:0.0,&quot;Y&quot;:0.0,&quot;Z&quot;:-10,&quot;ID&quot;:0,&quot;Active&quot;:true},&quot;B&quot;:{&quot;X&quot;:10.0,&quot;Y&quot;:0.0,&quot;Z&quot;:0.0,&quot;ID&quot;:1,&quot;Active&quot;:true},&quot;C&quot;:{&quot;X&quot;:0.0,&quot;Y&quot;:0.0,&quot;Z&quot;:10.0,&quot;ID&quot;:2,&quot;Active&quot;:true},&quot;D&quot;:{&quot;X&quot;:-10.0,&quot;Y&quot;:0.0,&quot;Z&quot;:0.0,&quot;ID&quot;:3,&quot;Active&quot;:true},&quot;One&quot;:{&quot;X&quot;:10.0,&quot;Y&quot;:0.0,&quot;Z&quot;:-10.0,&quot;ID&quot;:4,&quot;Active&quot;:true},&quot;Two&quot;:{&quot;X&quot;:10.0,&quot;Y&quot;:0.0,&quot;Z&quot;:10.0,&quot;ID&quot;:5,&quot;Active&quot;:true},&quot;Three&quot;:{&quot;X&quot;:-10.0,&quot;Y&quot;:0.0,&quot;Z&quot;:10.0,&quot;ID&quot;:6,&quot;Active&quot;:true},&quot;Four&quot;:{&quot;X&quot;:-10.0,&quot;Y&quot;:0.0,&quot;Z&quot;:-10.0,&quot;ID&quot;:7,&quot;Active&quot;:true}}" ActionType="NamedCallback">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                  <Action OrderNumber="2" NamedCallbackName="command" NamedCallbackParam="/waymark save 30" ActionType="NamedCallback" ExecutionDelayExpression="500">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                  <Action OrderNumber="3" NamedCallbackName="command" NamedCallbackParam="/waymark preset 30" ActionType="NamedCallback" ExecutionDelayExpression="550">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="设置场地标点3" Id="67a8cc8b-62b1-411b-974f-45cb12b74be1" RegularExpression="^.{14} ChatLog 00:0038::设置场地标点3。$">
+                <Actions>
+                  <Action OrderNumber="1" NamedCallbackName="place" NamedCallbackParam="{&quot;Name&quot;:&quot;异闻迷宫 零式异闻阿罗阿罗岛&quot;,&quot;MapID&quot;:0,&quot;A&quot;:{&quot;X&quot;:-200,&quot;Y&quot;:-200.0,&quot;Z&quot;:-18.55,&quot;ID&quot;:0,&quot;Active&quot;:true},&quot;B&quot;:{&quot;X&quot;:-181.45,&quot;Y&quot;:-200.0,&quot;Z&quot;:0,&quot;ID&quot;:1,&quot;Active&quot;:true},&quot;C&quot;:{&quot;X&quot;:-200,&quot;Y&quot;:-200.0,&quot;Z&quot;:18.55,&quot;ID&quot;:2,&quot;Active&quot;:true},&quot;D&quot;:{&quot;X&quot;:-218.55,&quot;Y&quot;:-200.0,&quot;Z&quot;:0,&quot;ID&quot;:3,&quot;Active&quot;:true},&quot;One&quot;:{&quot;X&quot;:-186.883,&quot;Y&quot;:-200.0,&quot;Z&quot;:-13.117,&quot;ID&quot;:4,&quot;Active&quot;:true},&quot;Two&quot;:{&quot;X&quot;:-186.883,&quot;Y&quot;:-200.0,&quot;Z&quot;:13.117,&quot;ID&quot;:5,&quot;Active&quot;:true},&quot;Three&quot;:{&quot;X&quot;:-213.117,&quot;Y&quot;:-200.0,&quot;Z&quot;:13.117,&quot;ID&quot;:6,&quot;Active&quot;:true},&quot;Four&quot;:{&quot;X&quot;:-213.117,&quot;Y&quot;:-200.0,&quot;Z&quot;:-13.117,&quot;ID&quot;:7,&quot;Active&quot;:true}}" ActionType="NamedCallback">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                  <Action OrderNumber="2" NamedCallbackName="command" NamedCallbackParam="/waymark save 30" ActionType="NamedCallback" ExecutionDelayExpression="500">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                  <Action OrderNumber="3" NamedCallbackName="command" NamedCallbackParam="/waymark preset 30" ActionType="NamedCallback" ExecutionDelayExpression="550">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
