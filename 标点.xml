@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <TriggernometryExport PluginVersion="1.2.0.7">
-  <ExportedFolder Id="5276c779-3333-4fbe-bb1c-8dd1e03a6a39" Name="场地标点-7.0.5.4" Enabled="true">
+  <ExportedFolder Id="5276c779-3333-4fbe-bb1c-8dd1e03a6a39" Name="场地标点-7.0.5.5" Enabled="true">
     <Folders>
-      <Folder Id="3bebf4b8-2de0-4d7b-bd3d-fcc28851f3c4" Name="讨伐歼殛战" Enabled="true">
+      <Folder Id="3bebf4b8-2de0-4d7b-bd3d-fcc28851f3c4" Name="歼殛战" Enabled="true">
         <Folders>
           <Folder ZoneFilterEnabled="True" Id="f1365231-5101-438b-8ecc-22e3f1c21f7c" ZoneFilterRegularExpression="^哈迪斯孤念歼灭战$" Name="[5.1] 哈迪斯孤念歼灭战" Enabled="true">
             <Folders />
@@ -365,7 +365,7 @@
               </Trigger>
             </Triggers>
           </Folder>
-          <Folder ZoneFilterEnabled="True" Id="cbaf2bca-c45c-4fdc-bed4-087bef30f608" ZoneFilterRegularExpression="^Worqor\ Lar\ Dor\ \(Extreme\)$" Name="[7.0]艳翼蛇鸟歼殛战" Enabled="true">
+          <Folder ZoneFilterEnabled="True" Id="cbaf2bca-c45c-4fdc-bed4-087bef30f608" ZoneFilterRegularExpression="^Worqor\ Lar\ Dor\ \(Extreme\)$" Name="[7.0] 艳翼蛇鸟歼殛战" Enabled="true">
             <Folders />
             <Triggers>
               <Trigger Enabled="true" Name="设置场地标点" Id="14871fe6-1d98-495d-aa97-b92fc7d42506" RegularExpression="^.{14} ChatLog 00:0038::设置场地标点。$">
@@ -384,7 +384,7 @@
               </Trigger>
             </Triggers>
           </Folder>
-          <Folder ZoneFilterEnabled="True" Id="8c7414c5-f662-4ea2-82bf-d45ec8ae2098" ZoneFilterRegularExpression="^Everkeep\ \(Extreme\)$" Name="[7.0]佐拉加歼殛战" Enabled="true">
+          <Folder ZoneFilterEnabled="True" Id="8c7414c5-f662-4ea2-82bf-d45ec8ae2098" ZoneFilterRegularExpression="^Everkeep\ \(Extreme\)$" Name="[7.0] 佐拉加歼殛战" Enabled="true">
             <Folders />
             <Triggers>
               <Trigger Enabled="true" Name="设置场地标点" Id="9f2c5407-7d9e-4220-9f3e-1247d7d06002" RegularExpression="^.{14} ChatLog 00:0038::设置场地标点。$">
@@ -406,7 +406,7 @@
         </Folders>
         <Triggers />
       </Folder>
-      <Folder Id="2b8f478a-0123-495d-8406-900a53789fc2" Name="大型副本" Enabled="true">
+      <Folder Id="2b8f478a-0123-495d-8406-900a53789fc2" Name="零式" Enabled="true">
         <Folders>
           <Folder Id="fc3d4049-9fb3-4c58-83a6-f168e65ccd36" Name="[4.0] 欧米茄零式时空狭缝" Enabled="true">
             <Folders>
@@ -783,7 +783,6 @@
                       </Action>
                     </Actions>
                     <Condition Enabled="false" Grouping="Or" />
-                    <Conditions />
                   </Trigger>
                   <Trigger Enabled="true" Name="设置场地标点" Id="efe4df10-e7c5-40dc-8300-84a0cb3aeda0" RegularExpression="^.{14} ChatLog 00:0038::设置场地标点。$">
                     <Actions>
@@ -798,7 +797,6 @@
                       </Action>
                     </Actions>
                     <Condition Enabled="false" Grouping="Or" />
-                    <Conditions />
                   </Trigger>
                 </Triggers>
               </Folder>
@@ -1249,9 +1247,9 @@
         </Folders>
         <Triggers />
       </Folder>
-      <Folder Id="8313ba9f-5e15-4c06-9eae-28bd284794ca" Name="特殊场景、特殊迷宫" Enabled="true">
+      <Folder Id="8313ba9f-5e15-4c06-9eae-28bd284794ca" Name="异闻迷宫" Enabled="true">
         <Folders>
-          <Folder ZoneFilterEnabled="True" Id="b16d9648-7286-4ea4-a2ff-cc87a0e192f9" ZoneFilterRegularExpression="^异闻迷宫\ 异闻希拉狄哈水道$" Name="[6.25]异闻迷宫 异闻希拉狄哈水道" Enabled="true">
+          <Folder ZoneFilterEnabled="True" Id="b16d9648-7286-4ea4-a2ff-cc87a0e192f9" ZoneFilterRegularExpression="^异闻迷宫\ 异闻希拉狄哈水道$" Name="[6.25] 异闻迷宫 异闻希拉狄哈水道" Enabled="true">
             <Folders />
             <Triggers>
               <Trigger Enabled="true" Name="设置场地标点2" Id="a80d077b-fd4e-4722-9cb4-8b29a99b2035" RegularExpression="^.{14} ChatLog 00:0038::设置场地标点2。$">
@@ -1298,7 +1296,7 @@
               </Trigger>
             </Triggers>
           </Folder>
-          <Folder ZoneFilterEnabled="True" Id="5f362be8-80ff-4332-b6a9-56386083cf0b" ZoneFilterRegularExpression="^异闻迷宫\ 零式异闻希拉狄哈水道$" Name="[6.25]异闻迷宫 零式异闻希拉狄哈水道" Enabled="true">
+          <Folder ZoneFilterEnabled="True" Id="5f362be8-80ff-4332-b6a9-56386083cf0b" ZoneFilterRegularExpression="^异闻迷宫\ 零式异闻希拉狄哈水道$" Name="[6.25] 异闻迷宫 零式异闻希拉狄哈水道" Enabled="true">
             <Folders />
             <Triggers>
               <Trigger Enabled="true" Name="设置场地标点2" Id="08bdab04-a76c-4b76-b0aa-cb029c7f433f" RegularExpression="^.{14} ChatLog 00:0038::设置场地标点2。$">
@@ -1345,7 +1343,7 @@
               </Trigger>
             </Triggers>
           </Folder>
-          <Folder ZoneFilterEnabled="True" Id="69cc4428-f98a-4088-8cef-856c78235b85" ZoneFilterRegularExpression="^异闻迷宫\ 异闻六根山$" Name="[6.45]异闻迷宫 异闻六根山" Enabled="true">
+          <Folder ZoneFilterEnabled="True" Id="69cc4428-f98a-4088-8cef-856c78235b85" ZoneFilterRegularExpression="^异闻迷宫\ 异闻六根山$" Name="[6.45] 异闻迷宫 异闻六根山" Enabled="true">
             <Folders />
             <Triggers>
               <Trigger Enabled="true" Name="设置场地标点2" Id="98adf949-4cac-484c-8ab8-49cede6f2d83" RegularExpression="^.{14} ChatLog 00:0038::设置场地标点2。$">
@@ -1392,7 +1390,7 @@
               </Trigger>
             </Triggers>
           </Folder>
-          <Folder ZoneFilterEnabled="True" Id="83740014-6469-4ef4-82a9-a5baa8546b59" ZoneFilterRegularExpression="^异闻迷宫\ 零式异闻六根山$" Name="[6.45]异闻迷宫 零式异闻六根山" Enabled="true">
+          <Folder ZoneFilterEnabled="True" Id="83740014-6469-4ef4-82a9-a5baa8546b59" ZoneFilterRegularExpression="^异闻迷宫\ 零式异闻六根山$" Name="[6.45] 异闻迷宫 零式异闻六根山" Enabled="true">
             <Folders />
             <Triggers>
               <Trigger Enabled="true" Name="设置场地标点2" Id="f6909978-eb2d-4e18-adea-bf952d62cd6b" RegularExpression="^.{14} ChatLog 00:0038::设置场地标点2。$">
@@ -1439,7 +1437,7 @@
               </Trigger>
             </Triggers>
           </Folder>
-          <Folder ZoneFilterEnabled="True" Id="05251092-05ee-4cdd-ba7e-773fe2131a58" ZoneFilterRegularExpression="^异闻迷宫\ 异闻阿罗阿罗岛$" Name="[6.51]异闻迷宫 异闻阿罗阿罗岛" Enabled="true">
+          <Folder ZoneFilterEnabled="True" Id="05251092-05ee-4cdd-ba7e-773fe2131a58" ZoneFilterRegularExpression="^异闻迷宫\ 异闻阿罗阿罗岛$" Name="[6.51] 异闻迷宫 异闻阿罗阿罗岛" Enabled="true">
             <Folders />
             <Triggers>
               <Trigger Enabled="true" Name="设置场地标点2" Id="dfb18acc-8611-4edd-ac3f-738a9c23bd26" RegularExpression="^.{14} ChatLog 00:0038::设置场地标点2。$">
@@ -1486,7 +1484,7 @@
               </Trigger>
             </Triggers>
           </Folder>
-          <Folder ZoneFilterEnabled="True" Id="35d000f7-be03-4232-bfa2-4cc49d9ec98b" ZoneFilterRegularExpression="^异闻迷宫\ 零式异闻阿罗阿罗岛$" Name="[6.51]异闻迷宫 零式异闻阿罗阿罗岛" Enabled="true">
+          <Folder ZoneFilterEnabled="True" Id="35d000f7-be03-4232-bfa2-4cc49d9ec98b" ZoneFilterRegularExpression="^异闻迷宫\ 零式异闻阿罗阿罗岛$" Name="[6.51] 异闻迷宫 零式异闻阿罗阿罗岛" Enabled="true">
             <Folders />
             <Triggers>
               <Trigger Enabled="true" Name="设置场地标点2" Id="b75c67c5-b440-42f5-aee4-be6d9c12dbb9" RegularExpression="^.{14} ChatLog 00:0038::设置场地标点2。$">
