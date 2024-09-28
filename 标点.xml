@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <TriggernometryExport PluginVersion="1.2.0.7">
-  <ExportedFolder Id="5276c779-3333-4fbe-bb1c-8dd1e03a6a39" Name="场地标点-7.0.5.9" Enabled="true">
+  <ExportedFolder Id="5276c779-3333-4fbe-bb1c-8dd1e03a6a39" Name="场地标点-7.0.5.10" Enabled="true">
     <Folders>
       <Folder Id="3bebf4b8-2de0-4d7b-bd3d-fcc28851f3c4" Name="歼殛战" Enabled="true">
         <Folders>
@@ -270,7 +270,7 @@
               </Trigger>
             </Triggers>
           </Folder>
-          <Folder ZoneFilterEnabled="True" Id="cbaf2bca-c45c-4fdc-bed4-087bef30f608" ZoneFilterRegularExpression="^Worqor\ Lar\ Dor\ \(Extreme\)$" Name="[7.0] 艳翼蛇鸟歼殛战" Enabled="true">
+          <Folder ZoneFilterEnabled="True" Id="cbaf2bca-c45c-4fdc-bed4-087bef30f608" ZoneFilterRegularExpression="^艳翼蛇鸟歼殛战$" Name="[7.0] 艳翼蛇鸟歼殛战" Enabled="true">
             <Folders />
             <Triggers>
               <Trigger Enabled="true" Name="设置场地标点" Id="14871fe6-1d98-495d-aa97-b92fc7d42506" RegularExpression="^.{14} ChatLog 00:0038::设置场地标点。$">
@@ -289,7 +289,7 @@
               </Trigger>
             </Triggers>
           </Folder>
-          <Folder ZoneFilterEnabled="True" Id="8c7414c5-f662-4ea2-82bf-d45ec8ae2098" ZoneFilterRegularExpression="^Everkeep\ \(Extreme\)$" Name="[7.0] 佐拉加歼殛战" Enabled="true">
+          <Folder ZoneFilterEnabled="True" Id="8c7414c5-f662-4ea2-82bf-d45ec8ae2098" ZoneFilterRegularExpression="^佐拉加歼殛战$" Name="[7.0] 佐拉加歼殛战" Enabled="true">
             <Folders />
             <Triggers>
               <Trigger Enabled="true" Name="设置场地标点" Id="9f2c5407-7d9e-4220-9f3e-1247d7d06002" RegularExpression="^.{14} ChatLog 00:0038::设置场地标点。$">
