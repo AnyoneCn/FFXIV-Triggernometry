@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <TriggernometryExport PluginVersion="1.2.0.7">
-  <ExportedFolder Id="5276c779-3333-4fbe-bb1c-8dd1e03a6a39" Name="场地标点-7.0.5.10" Enabled="true">
+  <ExportedFolder Id="5276c779-3333-4fbe-bb1c-8dd1e03a6a39" Name="场地标点-7.0.5.11" Enabled="true">
     <Folders>
       <Folder Id="3bebf4b8-2de0-4d7b-bd3d-fcc28851f3c4" Name="歼殛战" Enabled="true">
         <Folders>
@@ -294,7 +294,7 @@
             <Triggers>
               <Trigger Enabled="true" Name="设置场地标点" Id="9f2c5407-7d9e-4220-9f3e-1247d7d06002" RegularExpression="^.{14} ChatLog 00:0038::设置场地标点。$">
                 <Actions>
-                  <Action OrderNumber="1" NamedCallbackName="place" NamedCallbackParam="{&quot;Name&quot;:&quot;佐拉加歼殛战&quot;,&quot;MapID&quot;:0,&quot;A&quot;:{&quot;X&quot;:100,&quot;Y&quot;:0,&quot;Z&quot;:88,&quot;ID&quot;:0,&quot;Active&quot;:true},&quot;B&quot;:{&quot;X&quot;:112,&quot;Y&quot;:0,&quot;Z&quot;:100,&quot;ID&quot;:1,&quot;Active&quot;:true},&quot;C&quot;:{&quot;X&quot;:100,&quot;Y&quot;:0,&quot;Z&quot;:112,&quot;ID&quot;:2,&quot;Active&quot;:true},&quot;D&quot;:{&quot;X&quot;:88,&quot;Y&quot;:0,&quot;Z&quot;:100,&quot;ID&quot;:3,&quot;Active&quot;:true},&quot;One&quot;:{&quot;X&quot;:0,&quot;Y&quot;:0,&quot;Z&quot;:0,&quot;ID&quot;:4,&quot;Active&quot;:false},&quot;Two&quot;:{&quot;X&quot;:0,&quot;Y&quot;:0,&quot;Z&quot;:0,&quot;ID&quot;:5,&quot;Active&quot;:false},&quot;Three&quot;:{&quot;X&quot;:0,&quot;Y&quot;:0,&quot;Z&quot;:0,&quot;ID&quot;:6,&quot;Active&quot;:false},&quot;Four&quot;:{&quot;X&quot;:0,&quot;Y&quot;:0,&quot;Z&quot;:0,&quot;ID&quot;:7,&quot;Active&quot;:false}}" SoundRouting="None" TTSRouting="None" ActionType="NamedCallback">
+                  <Action OrderNumber="1" NamedCallbackName="place" NamedCallbackParam="{&quot;Name&quot;:&quot;佐拉加歼殛战&quot;,&quot;MapID&quot;:0,&quot;A&quot;:{&quot;X&quot;:100,&quot;Y&quot;:0,&quot;Z&quot;:87.5,&quot;ID&quot;:0,&quot;Active&quot;:true},&quot;B&quot;:{&quot;X&quot;:100,&quot;Y&quot;:0,&quot;Z&quot;:102.5,&quot;ID&quot;:1,&quot;Active&quot;:true},&quot;C&quot;:{&quot;X&quot;:94.5,&quot;Y&quot;:0,&quot;Z&quot;:77.8,&quot;ID&quot;:2,&quot;Active&quot;:true},&quot;D&quot;:{&quot;X&quot;:100,&quot;Y&quot;:0,&quot;Z&quot;:117.5,&quot;ID&quot;:3,&quot;Active&quot;:true},&quot;One&quot;:{&quot;X&quot;:100,&quot;Y&quot;:0,&quot;Z&quot;:95,&quot;ID&quot;:4,&quot;Active&quot;:true},&quot;Two&quot;:{&quot;X&quot;:100,&quot;Y&quot;:0,&quot;Z&quot;:110,&quot;ID&quot;:5,&quot;Active&quot;:true},&quot;Three&quot;:{&quot;X&quot;:105.5,&quot;Y&quot;:0,&quot;Z&quot;:77.8,&quot;ID&quot;:6,&quot;Active&quot;:true},&quot;Four&quot;:{&quot;X&quot;:100,&quot;Y&quot;:0,&quot;Z&quot;:125,&quot;ID&quot;:7,&quot;Active&quot;:true}}" SoundRouting="None" TTSRouting="None" ActionType="NamedCallback">
                     <Condition Enabled="false" Grouping="Or" />
                   </Action>
                   <Action OrderNumber="2" NamedCallbackName="command" NamedCallbackParam="/waymark save 30" SoundRouting="None" TTSRouting="None" ActionType="NamedCallback" ExecutionDelayExpression="500">
