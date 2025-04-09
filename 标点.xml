@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<TriggernometryExport PluginVersion="1.2.0.732">
-  <ExportedFolder Id="5276c779-3333-4fbe-bb1c-8dd1e03a6a39" Name="场地标点-7.15.3" Enabled="true">
+<TriggernometryExport PluginVersion="1.2.0.736">
+  <ExportedFolder Id="5276c779-3333-4fbe-bb1c-8dd1e03a6a39" Name="场地标点-7.2.3" Enabled="true">
     <Folders>
       <Folder Id="3bebf4b8-2de0-4d7b-bd3d-fcc28851f3c4" Name="歼殛战" Enabled="true">
         <Folders>
@@ -220,6 +220,30 @@
               </Trigger>
             </Triggers>
           </Folder>
+          <Folder ZoneFilterEnabled="True" Id="9407e458-cb55-4bee-a6e8-2b8e6d989f6f" ZoneFilterRegularExpression="^Recollection\ \(Extreme\)$" Name="[7.2] 泽莱妮娅歼殛战&#xA;" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="设置场地标点" Id="a7f8b589-c487-42d0-9606-dccfaab19ed7" RegularExpression="^.{14} ChatLog 00:0038::设置场地标点。$">
+                <Actions>
+                  <Action OrderNumber="1" NamedCallbackName="place" NamedCallbackParam="{&quot;Name&quot;:&quot;泽莱妮娅歼殛战&quot;,&quot;MapID&quot;:1031,&quot;A&quot;:{&quot;X&quot;:100.0,&quot;Y&quot;:0.0,&quot;Z&quot;:90.0,&quot;ID&quot;:0,&quot;Active&quot;:true},&quot;B&quot;:{&quot;X&quot;:110.0,&quot;Y&quot;:0.0,&quot;Z&quot;:100.0,&quot;ID&quot;:1,&quot;Active&quot;:true},&quot;C&quot;:{&quot;X&quot;:100.0,&quot;Y&quot;:0.0,&quot;Z&quot;:110.0,&quot;ID&quot;:2,&quot;Active&quot;:true},&quot;D&quot;:{&quot;X&quot;:90.0,&quot;Y&quot;:0.0,&quot;Z&quot;:100.0,&quot;ID&quot;:3,&quot;Active&quot;:true},&quot;One&quot;:{&quot;X&quot;:107.071,&quot;Y&quot;:0.0,&quot;Z&quot;:92.929,&quot;ID&quot;:4,&quot;Active&quot;:true},&quot;Two&quot;:{&quot;X&quot;:107.071,&quot;Y&quot;:0.0,&quot;Z&quot;:107.071,&quot;ID&quot;:5,&quot;Active&quot;:true},&quot;Three&quot;:{&quot;X&quot;:92.929,&quot;Y&quot;:0.0,&quot;Z&quot;:107.071,&quot;ID&quot;:6,&quot;Active&quot;:true},&quot;Four&quot;:{&quot;X&quot;:92.929,&quot;Y&quot;:0.0,&quot;Z&quot;:92.929,&quot;ID&quot;:7,&quot;Active&quot;:true}}" ActionType="NamedCallback" />
+                  <Action OrderNumber="2" NamedCallbackName="command" NamedCallbackParam="/waymark save 30" ActionType="NamedCallback" ExecutionDelayExpression="500" />
+                  <Action OrderNumber="3" NamedCallbackName="command" NamedCallbackParam="/waymark preset 30" ActionType="NamedCallback" ExecutionDelayExpression="550" />
+                </Actions>
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder ZoneFilterEnabled="True" Id="f3586406-55fd-43be-a0e6-75c987ca537f" ZoneFilterRegularExpression="^Hells'\ Kier\ \(Unreal\)$" Name="[7.2] 朱雀幻巧战" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="设置场地标点" Id="6a275897-cf45-4393-96e5-7081f7128706" RegularExpression="^.{14} ChatLog 00:0038::设置场地标点。$">
+                <Actions>
+                  <Action OrderNumber="1" NamedCallbackName="place" NamedCallbackParam="{&quot;Name&quot;:&quot;朱雀幻巧战&quot;,&quot;MapID&quot;:0,&quot;A&quot;:{&quot;X&quot;:100.426468,&quot;Y&quot;:0,&quot;Z&quot;:82.81605,&quot;Active&quot;:true},&quot;B&quot;:{&quot;X&quot;:118.567696,&quot;Y&quot;:0.00000190734863,&quot;Z&quot;:99.98941,&quot;Active&quot;:true},&quot;C&quot;:{&quot;X&quot;:99.9193344,&quot;Y&quot;:-9.536743e-7,&quot;Z&quot;:118.764473,&quot;Active&quot;:true},&quot;D&quot;:{&quot;X&quot;:81.94909,&quot;Y&quot;:0.00000190734863,&quot;Z&quot;:99.9024048,&quot;Active&quot;:true},&quot;One&quot;:{&quot;X&quot;:99.96159,&quot;Y&quot;:0,&quot;Z&quot;:106.399796,&quot;Active&quot;:true},&quot;Two&quot;:{&quot;X&quot;:0,&quot;Y&quot;:0,&quot;Z&quot;:0,&quot;Active&quot;:false},&quot;Three&quot;:{&quot;X&quot;:100,&quot;Y&quot;:0,&quot;Z&quot;:100,&quot;Active&quot;:false},&quot;Four&quot;:{&quot;X&quot;:100,&quot;Y&quot;:0,&quot;Z&quot;:100,&quot;Active&quot;:false}}" ActionType="NamedCallback" />
+                  <Action OrderNumber="2" NamedCallbackName="command" NamedCallbackParam="/waymark save 30" ActionType="NamedCallback" ExecutionDelayExpression="500" />
+                  <Action OrderNumber="3" NamedCallbackName="command" NamedCallbackParam="/waymark preset 30" ActionType="NamedCallback" ExecutionDelayExpression="550" />
+                </Actions>
+              </Trigger>
+            </Triggers>
+          </Folder>
         </Folders>
         <Triggers />
       </Folder>
@@ -418,6 +442,54 @@
                   <Trigger Enabled="true" Name="设置场地标点" Id="1fb0565e-8e2b-4b2e-bfa8-feadbf33508b" RegularExpression="^.{14} ChatLog 00:0038::设置场地标点。$">
                     <Actions>
                       <Action OrderNumber="1" NamedCallbackName="place" NamedCallbackParam="{&quot;Name&quot;:&quot;阿卡狄亚零式登天斗技场 (轻量级2)&quot;,&quot;MapID&quot;:0,&quot;A&quot;:{&quot;X&quot;:100,&quot;Y&quot;:0,&quot;Z&quot;:85,&quot;ID&quot;:0,&quot;Active&quot;:true},&quot;B&quot;:{&quot;X&quot;:115,&quot;Y&quot;:0,&quot;Z&quot;:100,&quot;ID&quot;:1,&quot;Active&quot;:true},&quot;C&quot;:{&quot;X&quot;:100,&quot;Y&quot;:0,&quot;Z&quot;:115,&quot;ID&quot;:2,&quot;Active&quot;:true},&quot;D&quot;:{&quot;X&quot;:85,&quot;Y&quot;:0,&quot;Z&quot;:100,&quot;ID&quot;:3,&quot;Active&quot;:true},&quot;One&quot;:{&quot;X&quot;:91.8,&quot;Y&quot;:0,&quot;Z&quot;:91.8,&quot;ID&quot;:4,&quot;Active&quot;:true},&quot;Two&quot;:{&quot;X&quot;:108.2,&quot;Y&quot;:0,&quot;Z&quot;:91.8,&quot;ID&quot;:5,&quot;Active&quot;:true},&quot;Three&quot;:{&quot;X&quot;:108.2,&quot;Y&quot;:0,&quot;Z&quot;:108.2,&quot;ID&quot;:6,&quot;Active&quot;:true},&quot;Four&quot;:{&quot;X&quot;:91.8,&quot;Y&quot;:0,&quot;Z&quot;:108.2,&quot;ID&quot;:7,&quot;Active&quot;:true}}" ActionType="NamedCallback" />
+                      <Action OrderNumber="2" NamedCallbackName="command" NamedCallbackParam="/waymark save 30" ActionType="NamedCallback" ExecutionDelayExpression="500" />
+                      <Action OrderNumber="3" NamedCallbackName="command" NamedCallbackParam="/waymark preset 30" ActionType="NamedCallback" ExecutionDelayExpression="550" />
+                    </Actions>
+                  </Trigger>
+                </Triggers>
+              </Folder>
+              <Folder ZoneFilterEnabled="True" Id="0c3f8b2f-68a3-48aa-91ff-5ce5f9131452" ZoneFilterRegularExpression="^AAC\ Cruiserweight\ M3\ \(Savage\)$" Name="阿卡狄亚零式登天斗技场 (中量级3)" Enabled="true">
+                <Folders />
+                <Triggers>
+                  <Trigger Enabled="true" Name="设置场地标点" Id="c350e56d-f468-4497-8002-e033ccae7df6" RegularExpression="^.{14} ChatLog 00:0038::设置场地标点。$">
+                    <Actions>
+                      <Action OrderNumber="1" NamedCallbackName="place" NamedCallbackParam="{&quot;Name&quot;:&quot;阿卡狄亚零式登天斗技场 (中量级3)&quot;,&quot;MapID&quot;:0,&quot;A&quot;:{&quot;X&quot;:90,&quot;Y&quot;:-200,&quot;Z&quot;:-5,&quot;ID&quot;:0,&quot;Active&quot;:true},&quot;B&quot;:{&quot;X&quot;:110,&quot;Y&quot;:-200,&quot;Z&quot;:-5,&quot;ID&quot;:1,&quot;Active&quot;:true},&quot;C&quot;:{&quot;X&quot;:110,&quot;Y&quot;:-200,&quot;Z&quot;:15,&quot;ID&quot;:2,&quot;Active&quot;:true},&quot;D&quot;:{&quot;X&quot;:90,&quot;Y&quot;:-200,&quot;Z&quot;:15,&quot;ID&quot;:3,&quot;Active&quot;:true},&quot;One&quot;:{&quot;X&quot;:91,&quot;Y&quot;:0,&quot;Z&quot;:91,&quot;ID&quot;:4,&quot;Active&quot;:true},&quot;Two&quot;:{&quot;X&quot;:109,&quot;Y&quot;:0,&quot;Z&quot;:91,&quot;ID&quot;:5,&quot;Active&quot;:true},&quot;Three&quot;:{&quot;X&quot;:109,&quot;Y&quot;:0,&quot;Z&quot;:109,&quot;ID&quot;:6,&quot;Active&quot;:true},&quot;Four&quot;:{&quot;X&quot;:91,&quot;Y&quot;:0,&quot;Z&quot;:109,&quot;ID&quot;:7,&quot;Active&quot;:true}}" ActionType="NamedCallback" />
+                      <Action OrderNumber="2" NamedCallbackName="command" NamedCallbackParam="/waymark save 30" ActionType="NamedCallback" ExecutionDelayExpression="500" />
+                      <Action OrderNumber="3" NamedCallbackName="command" NamedCallbackParam="/waymark preset 30" ActionType="NamedCallback" ExecutionDelayExpression="550" />
+                    </Actions>
+                  </Trigger>
+                </Triggers>
+              </Folder>
+              <Folder ZoneFilterEnabled="True" Id="9e68065b-02e5-4df0-b012-e8080a9e2ef3" ZoneFilterRegularExpression="^AAC\ Cruiserweight\ M2\ \(Savage\)$" Name="阿卡狄亚零式登天斗技场 (中量级2)" Enabled="true">
+                <Folders />
+                <Triggers>
+                  <Trigger Enabled="true" Name="设置场地标点" Id="726fca9d-7529-44bc-acda-f0fa16615aab" RegularExpression="^.{14} ChatLog 00:0038::设置场地标点。$">
+                    <Actions>
+                      <Action OrderNumber="1" NamedCallbackName="place" NamedCallbackParam="{&quot;Name&quot;:&quot;阿卡狄亚零式登天斗技场 (中量级2)&quot;,&quot;MapID&quot;:1022,&quot;A&quot;:{&quot;X&quot;:100,&quot;Y&quot;:0,&quot;Z&quot;:90,&quot;ID&quot;:0,&quot;Active&quot;:true},&quot;B&quot;:{&quot;X&quot;:110,&quot;Y&quot;:0,&quot;Z&quot;:100,&quot;ID&quot;:1,&quot;Active&quot;:true},&quot;C&quot;:{&quot;X&quot;:100,&quot;Y&quot;:0,&quot;Z&quot;:110,&quot;ID&quot;:2,&quot;Active&quot;:true},&quot;D&quot;:{&quot;X&quot;:90,&quot;Y&quot;:0,&quot;Z&quot;:100,&quot;ID&quot;:3,&quot;Active&quot;:true},&quot;One&quot;:{&quot;X&quot;:90,&quot;Y&quot;:0,&quot;Z&quot;:90,&quot;ID&quot;:4,&quot;Active&quot;:true},&quot;Two&quot;:{&quot;X&quot;:110,&quot;Y&quot;:0,&quot;Z&quot;:90,&quot;ID&quot;:5,&quot;Active&quot;:true},&quot;Three&quot;:{&quot;X&quot;:110,&quot;Y&quot;:0,&quot;Z&quot;:110,&quot;ID&quot;:6,&quot;Active&quot;:true},&quot;Four&quot;:{&quot;X&quot;:90,&quot;Y&quot;:0,&quot;Z&quot;:110,&quot;ID&quot;:7,&quot;Active&quot;:true}}" ActionType="NamedCallback" />
+                      <Action OrderNumber="2" NamedCallbackName="command" NamedCallbackParam="/waymark save 30" ActionType="NamedCallback" ExecutionDelayExpression="500" />
+                      <Action OrderNumber="3" NamedCallbackName="command" NamedCallbackParam="/waymark preset 30" ActionType="NamedCallback" ExecutionDelayExpression="550" />
+                    </Actions>
+                  </Trigger>
+                </Triggers>
+              </Folder>
+              <Folder ZoneFilterEnabled="True" Id="27b96752-5957-4d5d-8d3e-46fb90b03fb5" ZoneFilterRegularExpression="^AAC\ Cruiserweight\ M4\ \(Savage\)$" Name="阿卡狄亚零式登天斗技场 (中量级4)" Enabled="true">
+                <Folders />
+                <Triggers>
+                  <Trigger Enabled="true" Name="设置场地标点" Id="098a4fcd-7cac-4445-837c-4296a916e718" RegularExpression="^.{14} ChatLog 00:0038::设置场地标点。$">
+                    <Actions>
+                      <Action OrderNumber="1" NamedCallbackName="place" NamedCallbackParam="{&quot;Name&quot;:&quot;阿卡狄亚零式登天斗技场 (中量级4)&quot;,&quot;MapID&quot;:0,&quot;A&quot;:{&quot;X&quot;:100,&quot;Y&quot;:0,&quot;Z&quot;:89.331,&quot;ID&quot;:0,&quot;Active&quot;:true},&quot;B&quot;:{&quot;X&quot;:111.5,&quot;Y&quot;:0,&quot;Z&quot;:100,&quot;ID&quot;:1,&quot;Active&quot;:true},&quot;C&quot;:{&quot;X&quot;:100,&quot;Y&quot;:0,&quot;Z&quot;:110.996,&quot;ID&quot;:2,&quot;Active&quot;:true},&quot;D&quot;:{&quot;X&quot;:88,&quot;Y&quot;:0,&quot;Z&quot;:100,&quot;ID&quot;:3,&quot;Active&quot;:true},&quot;One&quot;:{&quot;X&quot;:92,&quot;Y&quot;:0,&quot;Z&quot;:92,&quot;ID&quot;:4,&quot;Active&quot;:true},&quot;Two&quot;:{&quot;X&quot;:108,&quot;Y&quot;:0,&quot;Z&quot;:92,&quot;ID&quot;:5,&quot;Active&quot;:true},&quot;Three&quot;:{&quot;X&quot;:108,&quot;Y&quot;:0,&quot;Z&quot;:108,&quot;ID&quot;:6,&quot;Active&quot;:true},&quot;Four&quot;:{&quot;X&quot;:92,&quot;Y&quot;:0,&quot;Z&quot;:108,&quot;ID&quot;:7,&quot;Active&quot;:true}}" ActionType="NamedCallback" />
+                      <Action OrderNumber="2" NamedCallbackName="command" NamedCallbackParam="/waymark save 30" ActionType="NamedCallback" ExecutionDelayExpression="500" />
+                      <Action OrderNumber="3" NamedCallbackName="command" NamedCallbackParam="/waymark preset 30" ActionType="NamedCallback" ExecutionDelayExpression="550" />
+                    </Actions>
+                  </Trigger>
+                </Triggers>
+              </Folder>
+              <Folder ZoneFilterEnabled="True" Id="0fa91be9-f6c0-492d-904a-9872fd59647c" ZoneFilterRegularExpression="^AAC\ Cruiserweight\ M1\ \(Savage\)$" Name="阿卡狄亚零式登天斗技场 (中量级1)" Enabled="true">
+                <Folders />
+                <Triggers>
+                  <Trigger Enabled="true" Name="设置场地标点" Id="17d90e01-7581-40c3-b88a-79eac06f98d5" RegularExpression="^.{14} ChatLog 00:0038::设置场地标点。$">
+                    <Actions>
+                      <Action OrderNumber="1" NamedCallbackName="place" NamedCallbackParam="{&quot;Name&quot;:&quot;阿卡狄亚零式登天斗技场 (中量级1)&quot;,&quot;MapID&quot;:0,&quot;A&quot;:{&quot;X&quot;:100.0,&quot;Y&quot;:0.0,&quot;Z&quot;:85.0,&quot;ID&quot;:0,&quot;Active&quot;:true},&quot;B&quot;:{&quot;X&quot;:115.0,&quot;Y&quot;:0.0,&quot;Z&quot;:100.0,&quot;ID&quot;:1,&quot;Active&quot;:true},&quot;C:{&quot;X&quot;:100.0,&quot;Y&quot;:0.0,&quot;Z&quot;:115.0,&quot;ID&quot;:2,&quot;Active&quot;:true},&quot;D&quot;:{&quot;X&quot;:85.0,&quot;Y&quot;:0.0,&quot;Z&quot;:100.0,&quot;ID&quot;:3,&quot;Active&quot;:true},&quot;One&quot;:{&quot;X&quot;:107.5,&quot;Y&quot;:0.0,&quot;Z&quot;:92.5,&quot;ID&quot;:7,&quot;Active&quot;:true},&quot;Two&quot;:{&quot;X&quot;:107.5,&quot;Y&quot;:0.0,&quot;Z&quot;:107.5,&quot;ID&quot;:4,&quot;Active&quot;:true},&quot;Three&quot;:{&quot;X&quot;:92.5,&quot;Y&quot;:0.0,&quot;Z&quot;:107.5,&quot;ID&quot;:5,&quot;Active&quot;:true},&quot;Four&quot;:{&quot;X&quot;:92.5,&quot;Y&quot;:0.0,&quot;Z&quot;:92.5,&quot;ID&quot;:6,&quot;Active&quot;:true}}" ActionType="NamedCallback" />
                       <Action OrderNumber="2" NamedCallbackName="command" NamedCallbackParam="/waymark save 30" ActionType="NamedCallback" ExecutionDelayExpression="500" />
                       <Action OrderNumber="3" NamedCallbackName="command" NamedCallbackParam="/waymark preset 30" ActionType="NamedCallback" ExecutionDelayExpression="550" />
                     </Actions>
