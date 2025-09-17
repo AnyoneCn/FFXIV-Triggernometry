@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<TriggernometryExport PluginVersion="1.2.0.748">
-  <ExportedFolder Id="5276c779-3333-4fbe-bb1c-8dd1e03a6a39" Name="场地标点-7.2.14" Enabled="true">
+<TriggernometryExport PluginVersion="1.2.0.753">
+  <ExportedFolder Id="5276c779-3333-4fbe-bb1c-8dd1e03a6a39" Name="场地标点-7.3.1.3" Enabled="true">
     <Folders>
       <Folder Id="3bebf4b8-2de0-4d7b-bd3d-fcc28851f3c4" Name="歼殛战" Enabled="true">
         <Folders>
@@ -220,12 +220,24 @@
               </Trigger>
             </Triggers>
           </Folder>
-          <Folder ZoneFilterEnabled="True" Id="f3586406-55fd-43be-a0e6-75c987ca537f" ZoneFilterRegularExpression="^朱雀幻巧战$" Name="[7.2] 朱雀幻巧战" Enabled="true">
+          <Folder ZoneFilterEnabled="True" Id="93ca0a3f-c039-459b-9168-e531624b0df0" ZoneFilterRegularExpression="^青龙幻巧战$" Name="[7.3] 青龙幻巧战&#xA;" Enabled="true">
             <Folders />
             <Triggers>
-              <Trigger Enabled="true" Name="设置场地标点" Id="6a275897-cf45-4393-96e5-7081f7128706" RegularExpression="^.{14} ChatLog 00:0038::设置场地标点。$">
+              <Trigger Enabled="true" Name="设置场地标点" Id="7f79a6a5-c7fb-46bb-bfa4-e620035a9037" RegularExpression="^.{14} ChatLog 00:0038::设置场地标点。$">
                 <Actions>
-                  <Action OrderNumber="1" NamedCallbackName="place" NamedCallbackParam="{&quot;Name&quot;:&quot;朱雀幻巧战&quot;,&quot;MapID&quot;:0,&quot;A&quot;:{&quot;X&quot;:100.426468,&quot;Y&quot;:0,&quot;Z&quot;:82.81605,&quot;Active&quot;:true},&quot;B&quot;:{&quot;X&quot;:118.567696,&quot;Y&quot;:0.00000190734863,&quot;Z&quot;:99.98941,&quot;Active&quot;:true},&quot;C&quot;:{&quot;X&quot;:99.9193344,&quot;Y&quot;:-9.536743e-7,&quot;Z&quot;:118.764473,&quot;Active&quot;:true},&quot;D&quot;:{&quot;X&quot;:81.94909,&quot;Y&quot;:0.00000190734863,&quot;Z&quot;:99.9024048,&quot;Active&quot;:true},&quot;One&quot;:{&quot;X&quot;:99.96159,&quot;Y&quot;:0,&quot;Z&quot;:106.399796,&quot;Active&quot;:true},&quot;Two&quot;:{&quot;X&quot;:0,&quot;Y&quot;:0,&quot;Z&quot;:0,&quot;Active&quot;:false},&quot;Three&quot;:{&quot;X&quot;:100,&quot;Y&quot;:0,&quot;Z&quot;:100,&quot;Active&quot;:false},&quot;Four&quot;:{&quot;X&quot;:100,&quot;Y&quot;:0,&quot;Z&quot;:100,&quot;Active&quot;:false}}" ActionType="NamedCallback" />
+                  <Action OrderNumber="1" NamedCallbackName="place" NamedCallbackParam="{&quot;Name&quot;:&quot;青龙幻巧战&quot;,&quot;MapID&quot;:0,&quot;A&quot;:{&quot;X&quot;:100,&quot;Y&quot;:0,&quot;Z&quot;:81.5,&quot;ID&quot;:0,&quot;Active&quot;:true},&quot;B&quot;:{&quot;X&quot;:118.5,&quot;Y&quot;:0,&quot;Z&quot;:100,&quot;ID&quot;:1,&quot;Active&quot;:true},&quot;C&quot;:{&quot;X&quot;:100,&quot;Y&quot;:0,&quot;Z&quot;:118.5,&quot;ID&quot;:2,&quot;Active&quot;:true},&quot;D&quot;:{&quot;X&quot;:81.5,&quot;Y&quot;:0,&quot;Z&quot;:100,&quot;ID&quot;:3,&quot;Active&quot;:true},&quot;One&quot;:{&quot;X&quot;:100,&quot;Y&quot;:0,&quot;Z&quot;:100,&quot;ID&quot;:4,&quot;Active&quot;:true},&quot;Two&quot;:{&quot;X&quot;:0,&quot;Y&quot;:0,&quot;Z&quot;:0,&quot;ID&quot;:5,&quot;Active&quot;:false},&quot;Three&quot;:{&quot;X&quot;:0,&quot;Y&quot;:0,&quot;Z&quot;:0,&quot;ID&quot;:6,&quot;Active&quot;:false},&quot;Four&quot;:{&quot;X&quot;:0,&quot;Y&quot;:0,&quot;Z&quot;:0,&quot;ID&quot;:7,&quot;Active&quot;:false}}" ActionType="NamedCallback" />
+                  <Action OrderNumber="2" NamedCallbackName="command" NamedCallbackParam="/waymark save 30" ActionType="NamedCallback" ExecutionDelayExpression="500" />
+                  <Action OrderNumber="3" NamedCallbackName="command" NamedCallbackParam="/waymark preset 30" ActionType="NamedCallback" ExecutionDelayExpression="550" />
+                </Actions>
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder ZoneFilterEnabled="True" Id="4b60b22b-2971-4225-9333-7f66d21fd3db" ZoneFilterRegularExpression="^永远之暗悲惶歼灭战$" Name="[7.3] 永远之暗悲惶歼灭战" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="设置场地标点" Id="07591a55-a18d-48ac-92e0-603181711740" RegularExpression="^.{14} ChatLog 00:0038::设置场地标点。$">
+                <Actions>
+                  <Action OrderNumber="1" NamedCallbackName="place" NamedCallbackParam="{&quot;Name&quot;:&quot;永远之暗悲惶歼灭战&quot;,&quot;MapID&quot;:0,&quot;A&quot;:{&quot;X&quot;:86.2,&quot;Z&quot;:95.2,&quot;Y&quot;:0,&quot;Active&quot;:true},&quot;B&quot;:{&quot;X&quot;:114,&quot;Z&quot;:95.1,&quot;Y&quot;:0,&quot;Active&quot;:true},&quot;C&quot;:{&quot;X&quot;:90.5,&quot;Z&quot;:98.1,&quot;Y&quot;:0,&quot;Active&quot;:true},&quot;D&quot;:{&quot;X&quot;:110,&quot;Z&quot;:97.9,&quot;Y&quot;:0,&quot;Active&quot;:true},&quot;One&quot;:{&quot;X&quot;:95.6,&quot;Z&quot;:86.2,&quot;Y&quot;:0,&quot;Active&quot;:true},&quot;Two&quot;:{&quot;X&quot;:104,&quot;Z&quot;:86.6,&quot;Y&quot;:0,&quot;Active&quot;:true},&quot;Three&quot;:{&quot;X&quot;:97,&quot;Z&quot;:90.5,&quot;Y&quot;:0,&quot;Active&quot;:true},&quot;Four&quot;:{&quot;X&quot;:103,&quot;Z&quot;:90.7,&quot;Y&quot;:0,&quot;Active&quot;:true}}" ActionType="NamedCallback" />
                   <Action OrderNumber="2" NamedCallbackName="command" NamedCallbackParam="/waymark save 30" ActionType="NamedCallback" ExecutionDelayExpression="500" />
                   <Action OrderNumber="3" NamedCallbackName="command" NamedCallbackParam="/waymark preset 30" ActionType="NamedCallback" ExecutionDelayExpression="550" />
                 </Actions>
